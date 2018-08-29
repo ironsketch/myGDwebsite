@@ -1,0 +1,1 @@
+{"exit_code":0,"data":[{"user":"x5orowb5nk8e","type":"main","homedir":"/home/x5orowb5nk8e"},{"user":"x5orowb5nk8e_logs","type":"logaccess","homedir":"/etc/apache2/logs/domlogs/x5orowb5nk8e"}],"mode":"simple","timeout":0,"status":1,"version":"2.4","action":"fetch","statusmsg":"Ran adminbin Cpanel/ftp/LISTSTORE","error":0}
