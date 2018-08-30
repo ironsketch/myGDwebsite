@@ -1,4 +1,43 @@
-
+<!DOCTYPE html>
 <html>
-<head>
-
+    <head>
+        <meta charset="UTF-8">
+        <title>Michelle Bergin Artwork</title>
+        <link rel="stylesheet" href="css/home.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="logo">
+                <img alt="charcoal drawing of a woman" src="images/bck.jpg" />
+            </div>
+            <div id="nav">
+                <a class="nav" href="paintings.html">PAINTINGS</a>
+                <a class="nav" href="charcoal.html">CHARCOAL</a>
+                <a class="nav" href="illustrations.html">ILLUSTRATIONS</a>
+                <a class="nav" href="other.html">OTHER</a>
+                <a class="nav" href="about.html">ABOUT</a>
+                <a class="nav" href="contact.html">CONTACT</a>
+            </div>
+            <p>
+                <h1 class="h1Class">Michelle Bergin Art</h1>
+            </p>
+            <div id="content">
+                My artwork is created from many different mediums 
+                <br />and is usually of people around me and in my life. 
+                <br />I love learning about people and their lives, 
+                <br />and it shows in my artwork, 
+                <br />the richness that they provide.
+                <p id="ranArt" class="randomArt">
+                    <img id="ranArtIMG" alt="random art" src="images/small/sirius.jpg" />
+                    <script>
+                        var imgs = ["angrycat.jpg", "bloodborne.jpg", "rockdog.jpg", "snape002.jpg", "journal.jpg", "jacket.jpg", "comm.jpg", "computer.jpg", "bear.jpg", "hagrid.jpg", "sirius.jpg", "toddcat.jpg", "beepbeep.jpg", "jessbabe.jpg", "snape001.jpg", "trumpet.jpg"];
+var meow = setInterval(function getImage() {document.getElementById("ranArtIMG").src = "images/small/" + imgs[ran(imgs.length)];}, 3000);
+                        function ran(numb) {
+                            return Math.floor(Math.random() * numb);
+                        }
+                    </script>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
