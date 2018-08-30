@@ -4,7 +4,7 @@ body {
     background-position: 30 30;
     color: #2e2e2e;
     font-family: "Courier New", Courier, Monospace;
-    margin: 0px;
+    margin: 0px 0px 50px 0px;
     padding: 0px;
 }
 h1 {
@@ -23,6 +23,40 @@ h1 {
 #logo {
     float: left;
     min-height: 100%;
+}
+#contact {
+    width: 500px;
+    display: inline-block;
+}
+.con {
+    padding-top: 50px;
+}
+#etsy {
+    color: #000000;
+}
+#etsy a:link {
+    color: #000000;
+    text-decoration: none;
+    font-size: 56px;
+    font-weight: bold;
+} 
+#etsy a:visited {
+    color: #000000;
+    text-decoration: none;
+    font-size: 56px;
+    font-weight: bold;
+}
+#etsy a:hover {
+    color: #525252;
+    text-decoration: none;
+    font-size: 56px;
+    font-weight: bold;
+}
+#etsy a:active {
+    color: #f39e3a;
+    text-decoration: none;
+    font-size: 56px;
+    font-weight: bold;
 }
 #card1 {
     background-color: #f39e3a;
@@ -110,6 +144,7 @@ h1 {
 }
 #footer {
     bottom: 0px;
+    position: fixed;
     background-color: #f39e3a;
     color: #ffffff;
     font-size: 14px;
