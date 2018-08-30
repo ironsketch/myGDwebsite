@@ -34,8 +34,9 @@ h1 {
     margin-bottom: 50px;
     text-align: center;
 }
-#ranArtIMG {                                                                                                                                                
-     border-radius: 25px;
+#ranArtIMG {
+    text-align: center;
+    border-radius: 25px;
 } 
 #card2 {
     background-color: #cdcdcd;
@@ -95,6 +96,11 @@ h1 {
     text-align: left;
     margin-top: 20px;
     margin-left: 130px;
+    width: 100%;
+}
+#content2 {
+    text-align: center;
+    margin-top: 20px;
     width: 100%;
 }
 #art {
