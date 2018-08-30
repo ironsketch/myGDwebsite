@@ -17,6 +17,7 @@ h1 {
 }
 #container {
     width: auto;
+    margin-top: 10px;
 }
 #logo {
     float: left;
