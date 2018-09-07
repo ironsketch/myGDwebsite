@@ -78,7 +78,8 @@ a.startLink:hover {
 	border-radius: 25px;
 	background: #ffffff;
 	width: 300px;
-	display: inline-block;
+	height: 300px;
+    display: inline-block;
 }
 #bottom {
 	bottom: 0px;
