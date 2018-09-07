@@ -28,7 +28,7 @@
                     print_r($files1);
                 ?>
                 <?php
-                    $homepage = file_get_contents('http://www.example.com/');
+                    $homepage = file_get_contents('docs/gettingstarted.html');
                     print_r($homepage);
                 ?>
                 <div id="card">
