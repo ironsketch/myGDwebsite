@@ -37,7 +37,8 @@
                 
                         }
                     }
-                    echo '<h1> get_title("docs/gettingstarted.html") </h1>';
+                    $title = get_title("docs/gettingstarted.html");
+                    echo '<h1> $title </h1>';
                 ?>
                 <div id="card">
 					This is where a short description would go for what this document has.
