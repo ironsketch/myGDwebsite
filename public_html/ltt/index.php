@@ -40,6 +40,7 @@
                             if($html[1] === "html"){
                                 $title = get_title("docs/" . $file);
                                 echo "<div id='card'><span class='cardtitle'>" . $title . "</span>";//"<p class='start'><a href='docs/" . $file . "' class='startLink'>Start</a></p></div>";
+                            }
                         }
                     closedir($handle);
                     }
