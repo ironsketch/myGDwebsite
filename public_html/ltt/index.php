@@ -1,15 +1,6 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="styles.css">
-		<?php
-			$dir = "docs/";
-			$a = scandir($dir);
-			$b = scandir($dir, 1);
-		?>
-		<script>
-			var meow = [<?php echo '"'.implode('","', $a).'"' ?>];
-			console.log(meow);
-		</script>
 	</head>
 	<body>
 		<div id="container">
