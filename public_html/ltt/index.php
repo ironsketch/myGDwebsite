@@ -28,7 +28,8 @@
                         while (false !== ($file = readdir($handle))) {
                             if ('.' === $file) continue;
                             if ('..' === $file) continue;
-                            echo $file;
+                            $html = explode(".", $file);
+                            if($html[1] === "html") echo $file;
                         }
                     closedir($handle);
                     }
