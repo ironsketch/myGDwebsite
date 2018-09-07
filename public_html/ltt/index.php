@@ -22,11 +22,17 @@
 				<a href="https://codelabs.developers.google.com/">Google CodeLabs</a>
 			</div>
 			<div id="cardHolder">
-				<?php
-                    $dir = 'docs';
-                    $files1 = scandir($dir);
-                    print_r($files1);
-                ?>
+            <?php
+                $path = "docs/";
+                    if ($handle = opendir($path)) {
+                        while (false !== ($file = readdir($handle))) {
+                            if ('.' === $file) continue;
+                            if ('..' === $file) continue;
+                            echo $file;
+                        }
+                    closedir($handle);
+                    }
+                ?>          
                 <?php
                     function get_title($url){
                         $str = file_get_contents($url);
