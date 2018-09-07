@@ -27,6 +27,10 @@
                     $files1 = scandir($dir);
                     print_r($files1);
                 ?>
+                <?php
+                    $homepage = file_get_contents('http://www.example.com/');
+                    print_r($homepage);
+                ?>
                 <div id="card">
 					This is where a short description would go for what this document has.
 					<p class="start"><a href="" class="startLink">Start</a></p>
