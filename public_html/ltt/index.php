@@ -45,10 +45,6 @@
                     closedir($handle);
                     }
                 ?>          
-                <div id="card">
-					This is where a short description would go for what this document has.
-					<p class="start"><a href="" class="startLink">Start</a></p>
-				</div>
 			</div>
 			<div id="bottom">
 				<img src="logo_menu.png" />
