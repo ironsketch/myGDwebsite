@@ -39,7 +39,7 @@
                             $html = explode(".", $file);
                             if($html[1] === "html"){
                                 $title = get_title("docs/" . $file);
-                                echo "<h1>" . $title . "</h1>";
+                                echo "<span class='cardtitle'>" . $title . "</span>";
                             }
                         }
                     closedir($handle);

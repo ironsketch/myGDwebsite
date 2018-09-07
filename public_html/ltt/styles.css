@@ -14,6 +14,10 @@ body {
 	width: 100%;
 	background-color: #ececec;
 }
+.cardtitle {
+    font-weight: bold;
+    font-size: 20px;
+}
 .start {
 	color: #2a79b6;
 	font-weight: bold;
