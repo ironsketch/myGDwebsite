@@ -5,6 +5,7 @@
 <head>
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
   <meta name="theme-color" content="#4F7DC9">
+  <meta name="description" content="Learn the basics of the Linux/Unix command line!">
   <meta charset="UTF-8">
   <title>Getting Started with Linux Command Line</title>
   <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
@@ -26,7 +27,7 @@
     
       <google-codelab-step label="Getting Started" duration="0">
         <p><img style="max-width: 322.50px" src="img/dfddb6dc71ab9ebd.png"></p>
-<p>Congratulations recruit and welcome to CyberSec. As you should know we provide security services to you, our communities, and businesses. You&#39;ve made it this far through our training program, I suppose that means you may be helpful. But first comes the final training. We need to strengthen your skills before you can truly be of use. Go through each tab to the left and at the end we will test what you have learned. Remember, this world is being controlled by the malicious corporations and individuals and we must learn to protect ourselves from their invasive attacks. We must protect our data. This is why you are here. To protect yourself, your company and your community. And it all starts here, at the beginning, with a terminal command. </p>
+<p>Congratulations recruit and welcome to CyberSec. As you should know we provide security services to you, our communities, and small businesses. You&#39;ve made it this far, I suppose that means you may be helpful. But first comes the training. We need to strengthen your skills before you can truly be of use. Go through each tab to the left and at the end we will test what you have learned. Remember, this world is being controlled by the malicious corporations and individuals and we must learn to protect ourselves from their invasive attacks. We must protect our data. This is why you are here. To protect yourself, your company and your community. And it all starts here, at the beginning, with a terminal command. </p>
 
 
       </google-codelab-step>
@@ -56,8 +57,8 @@
 <p>Linux folders and files are arranged like an upside down tree. Where the slash <code>/</code> is called the root, or beginning, of all your files in the entire computer. The root is the base of the tree and as you go up it keeps splitting into branches and leaves. The leaves would be a file and the branches are folders.</p>
 <p><img style="max-width: 624.00px" src="img/84d1022fb45ad8b.png"></p>
 <h2><strong>/  vs.  logging in as root</strong></h2>
-<p>The root is the beginning of your files. But you can also log in as the root user. When you do this, your home directory (where your files are typically saved) is in the folder /root. Just like if you were logged in as bermic you would typically save your files in /home/bermic</p>
-<p>Root is important to keep protected. With root access you will have access to everything on the computer. It is best practices to disable root or use a VERY strong password. For example using numbers, letters, capitals, special symbols and a random sampling of each. No dictionary words.</p>
+<p>The root, signified by a <code>/</code> , is the beginning of your files. But you can also log in as the root user. When you do this, your home directory (where your files are typically saved) is in the folder /root not at, <code>/</code>. The /root folder is not to be confused with the slash (root) the beginning of all the files. Just like if you were logged in as bermic you would typically save your files in /home/bermic, whereas the root user saves their files in /root.</p>
+<p><strong>Important</strong>, a root user is someone who has access to everything on the computer. They could even delete everything in a computer. It is best practices to disable root or use a VERY strong password. For example using numbers, letters, capitals, special symbols and a random sampling of each, and no dictionary words.</p>
 
 
       </google-codelab-step>
@@ -79,11 +80,11 @@
 <h2><strong>pwd</strong></h2>
 <p>Now type in </p>
 <pre>~$ pwd</pre>
-<p>Hit enter, pwd is a command to print your working directory. In other words, it prints your location so you can see where you are. You should see something similar to /home/yourusername.</p>
+<p>Hit enter, pwd is a command to print your working directory. In other words, it prints your location so you can see where you are. You should see something similar to /home/yourusername. To learn more type <code>man pwd</code> , then to get out of that page type <code>q</code></p>
 <h2><strong>ls</strong></h2>
 <p>Type </p>
 <pre>~$ ls</pre>
-<p>Hit enter, ls lists the files and directories of where you are now.</p>
+<p>Hit enter, <code>ls</code> lists the files and directories of where you are now.</p>
 <p>There are parameters and options you can give a command. What if you wanted to list the permissions of a file and find hidden files? (Yes there are hidden files!) </p>
 <p>Now type </p>
 <pre>~$ ls -la</pre>
@@ -102,7 +103,7 @@
 <aside class="special"><p>TASK: cd into the /tmp folder and then type ls and you will see a directory called &#34;follow_Me&#34;. Travel as deep as that folder will go. When you get to the end there is a file whose name is a randomized number. Find that.</p>
 </aside>
 <h2>        <strong>sudo</strong></h2>
-<p>Sometimes commands can only be run as a super user. This is when the command sudo comes to use (superuser do). This gives unprivileged users access to privileged commands. If you try to do something and it says Permission denied, try again with sudo in front of the command.</p>
+<p>Sometimes commands can only be run as a super user. This is when the command <code>sudo</code> comes to use (which stands for: superuser do). This gives unprivileged users access to privileged commands. If you try to do something and it says Permission denied, try again with <code>sudo</code> in front of the command.</p>
 
 
       </google-codelab-step>
@@ -114,37 +115,37 @@
 <p>and hit enter</p>
 <p>Remember we typed <code>ls -la</code>? Let&#39;s learn what <code>-l</code> and <code>-a</code> is! </p>
 <h2><strong>-l</strong></h2>
-<p>Type <code>/-l</code> and hit enter. Keep hitting n (stands for next) until you see <code>-l</code> highlighted to the left. This will be above <code>â€</code>“L<br>Long listing stands for listing the items in a row as seen in figure 2</p>
+<p>To search inside a man page, you use a <code>/</code> . Now type <code>/-l</code> and hit enter. You will probably see the page move to the first occurrence found and on top of that you should see that <code>-l</code> was highlighted*. To move around your search keep hitting <code>n</code> (stands for next) until you see <code>-l</code> highlighted to the left. This will be above <code>-L</code><br>Long listing stands for listing the items in a row as seen in figure 2</p>
 <h2><strong>-a</strong></h2>
-<p>Type <code>/-a</code> and hit enter.  Hit n till you can&#39;t go any further. Now hit <code>b</code> (stands for back) until you find the entry for <code>â€</code>“a which is above <code>â€</code>“A<br>The man page is telling you that files that start with . like .bashrc (which are typically hidden) are now displayed</p>
+<p>Type <code>/-a</code> and hit enter.  Hit <code>n</code> till you can&#39;t go any further. Now hit <code>b</code> (stands for back) until you find the entry for <code>-a</code> which is above <code>-A</code><br>The man page is telling you that files that start with <code>.</code> like .bashrc (which are typically hidden) are now going to be displayed.</p>
 <h2><strong>q</strong></h2>
 <p>When in a man page and you need to get out, just type <code>q</code></p>
 <aside class="special"><p>TASK: Open the man page for &#34;file&#34;. Can you give a brief description of what the command &#34;file&#34; does?</p>
 </aside>
+<p>* If you don&#39;t see it highlighted, you may have typed something by mistake or your console colors may not be optimized. If you typed something by mistake, just retype <code>/-l</code> etc.</p>
 
 
       </google-codelab-step>
     
       <google-codelab-step label="File Types" duration="0">
-        <p>        Not all files appear as they really are. Just because you see a file that says, imanimage.png does not mean that it is an image. It could be a text file or a harmful file if executed! So... how do you protect yourself? With the file command!</p>
+        <p>        Not all files appear as they really are. Just because you see a file that says, imanimage.png does not mean that it is an image. It could be a text file or a harmful file if executed! So... how do you protect yourself? One way is with the <code>file</code> command!</p>
 <h2>        <strong>file</strong></h2>
-<p>The command to check out what your files are is file. Check out the man page. Give it a peruse by typing in man file. What type of options are there with file? Now let&#39;s test it. Type q to get out of the man page.</p>
-<p>There are 2 files in your Linux box. One is called iamaimage.png and the other is iamaimage2.png</p>
-<p><img style="max-width: 624.00px" src="img/eead24e686b79449.png"></p>
-<p>Both look like images to me! But I also notice that one is a lot larger in size than the other. But how can I be sure that these files are both png&#39;s? </p>
+<p>To find out what a file really is regardless of its extension is <code>file</code>. Check out the man page. Give it a peruse by typing in <code>man file</code>. What type of options are there with file? Now let&#39;s test it. Type <code>q</code> to get out of the man page.</p>
+<p>There are 2 files in your Linux box in a folder at the location /tmp/toLearn . One is called cat.jpg and the other is dog.jpg</p>
+<p>Both look like images to me! But if you type in <code>ls -l</code> you will notice that one is a lot larger in size than the other.  One is about 25,000 bytes whereas the other is only about 20. Now let&#39;s see what is really going on.</p>
 <p>Type </p>
-<pre>~$ file iamanimage.png </pre>
-<p>You&#39;ll see something like, iamanimage.png: ASCII text</p>
+<pre>~$ file dog.jpg </pre>
+<p>You&#39;ll see something like, dog.jpg: ASCII text</p>
 <p>Now type </p>
-<pre>~$ file iamanimage2.png</pre>
-<p>You&#39;ll see something like, iamanimage2.png: PNG image data, 360 x 360, 8-bit/color RGB, non-interlaced</p>
+<pre>~$ file cat.jpg</pre>
+<p>You&#39;ll see something like, cat.jpg: JPEG image data, Exif standard: [TIFF image data, ... etc.</p>
 <h2><strong>cat</strong></h2>
-<p>Now let&#39;s learn a new command, cat. cat prints out the text from a file.</p>
+<p>Now let&#39;s learn a new command, <code>cat</code>. <code>cat</code> prints out the text from a file.</p>
 <p>Type </p>
-<pre>~$ cat iamanimage.png  </pre>
+<pre>~$ cat dog.jpg  </pre>
 <p>You should see something like:</p>
-<p><img style="max-width: 554.00px" src="img/45ecc0fc9c80a1d6.png"></p>
-<aside class="special"><p>TASK: In the tmp directory there is a folder called stuff. Open that up and find out what file types are in there. One is a text file (ASCII). Cat that and find the secret code inside. </p>
+<pre>meow I am a doggo</pre>
+<aside class="special"><p>TASK: In the tmp directory there is a folder called stuff. Open that up and find out what file types are in there. One is a text file (ASCII). cat that and find the secret code inside. </p>
 </aside>
 
 
@@ -152,23 +153,23 @@
     
       <google-codelab-step label="Case Sensitivity / touch / echo / Carrots" duration="0">
         <h2>        <strong>Case Sensitivity</strong></h2>
-<p>Case sensitivity means that HoW yoU labEL yoUR files matters. If you search for a file called hiya.docx would not be the same as finding a file, hIyA.docX. </p>
+<p>Case sensitivity means that HoW yoU labEL yoUR files matters. If you search for a file called hiya.docx, it would not be the same as finding a file, hiyA.docX. </p>
 <h2><strong>touch</strong></h2>
-<p>touch is a command that â€˜touches&#39; a file. If the file exists it updates its modified date. If the file does not exist, then the file will be created with nothing in it. man touch to learn more.</p>
+<p><code>touch</code> is a command that â€˜touches&#39; a file. If the file exists it updates its modified date. If the file does not exist, then the file will be created with nothing in it. <code>man touch</code> to learn more.</p>
 <h2><strong>echo</strong></h2>
-<p>echo will copy what you write to stdout (standard out). You can use this in many different ways.</p>
+<p><code>echo</code> will copy what you write to stdout (standard out, explained more later). You can use this in many different ways.</p>
 <p>Type</p>
 <pre>~$ echo &#34;This is echoed&#34;</pre>
 <p>You will see that it was repeated back to you!</p>
 <h2><strong>Carrots</strong></h2>
-<p>Carrots are good for you, but I am talking about &gt; &gt;&gt; &lt; &lt;&lt; These are called carrots. Carrots have many uses. &gt; Will replace a file with what you input</p>
+<p>Carrots are good for you, but I am talking about <code>&gt; &gt;&gt; &lt; &lt;&lt;</code> . These are called carrots. Carrots have many uses. <code>&gt;</code> Will replace a file with what you input. If the file already existed <code>&gt;</code> will delete <strong>everything</strong> in that file and replace it with what you sent it. In contrast if you use <code>&gt;&gt;</code> , this will append what you sent to the bottom of the file, leaving the rest of the file intact. Let&#39;s give it a try.</p>
 <p>Type</p>
 <pre>~$ echo &#34;This is cool&#34; &gt; newfile
 ~$ cat newfile</pre>
 <p>Now type</p>
 <pre>~$ echo &#34;This is cool too&#34; &gt; newfile
 ~$ cat newfile</pre>
-<p>You can see that &gt; will replace any text with what you send it. While &gt;&gt; will append to a file</p>
+<p>You can see that <code>&gt;</code> will replace any text with what you send it. While <code>&gt;&gt;</code> will append to a file</p>
 <p>Type</p>
 <pre>~$ echo &#34;This is another thing&#34; &gt;&gt; secondfile
 ~$ echo &#34;Hello World&#34; &gt;&gt; secondfile
@@ -177,7 +178,7 @@
 <p>Type</p>
 <pre>~$ echo newfile &gt;&gt; secondfile
 ~$ cat secondfile</pre>
-<p>You can see the newfile appended to the end of secondfile whereas if you cat newfile it will still only have what we added to it earlier.</p>
+<p>You can see the newfile appended to the end of secondfile whereas if you <code>cat</code> newfile it will still only have what we added to it earlier.</p>
 <aside class="special"><p>TASK: There is a folder in the /tmp directory called textfiles. There are three files, append them all to a new file called, alltogether.txt </p>
 <p>There are many ways to accomplish this in one line. It&#39;s not necessary but here is a hint for one way, type</p>
 <p>echo &#34;one&#34;; echo &#34;two&#34;; echo &#34;three&#34;;</p>
@@ -188,21 +189,21 @@
     
       <google-codelab-step label="vim, Regular expressions and find" duration="0">
         <h2><strong>vim</strong></h2>
-<p>vim is a program that is used to edit files, and will hopefully be your new best friend! There are different editors out there for example, nano and emac. To create a file just type</p>
+<p><code>vim</code> is a program that is used to edit files, and will hopefully be your new best friend! There are different editors out there for example, <code>nano</code> and emac. To create a file just type</p>
 <pre>~$ vim mynewfile.txt</pre>
 <p>Or</p>
 <pre>~$ vim thisisfun</pre>
 <p>To edit a file that is already created it&#39;s the same procedure, just make sure not to misspell it or you&#39;ll create a new file with that spelling. </p>
-<p>Once you are in vim the main key strokes to editing a file are:</p>
-<p>i - This puts you in edit mode to type and delete text like you normally would</p>
+<p>Once you are in <code>vim</code> the main key strokes to editing a file are:</p>
+<p><code>i</code> - This puts you in edit mode to type and delete text like you normally would</p>
 <p>esc - Hitting the escape key will take you out of edit mode</p>
-<p>:w - These keystrokes will save the file. w stands for write.</p>
-<p>:q - These keystrokes will quit the vim program. You can also do :wq to save the file and quit right away. </p>
-<p>dd - When NOT in edit mode this will delete an entire line</p>
-<p>0 - zero will take you to the beginning of a line while</p>
-<p>$ - will take you to the end of a line</p>
-<p>:q! - Did you edit a file and don&#39;t want to commit that change? These keystrokes will exit vim and NOT save your file.</p>
-<p>There is a LOT that vim can do but we won&#39;t list it all here. Do a search on the internet to learn more! But at the end of this lesson will be a couple more commands that you will find to be amazingly helpful! You can also check out vimtutor:</p>
+<p><code>:w</code> - These keystrokes will save the file. w stands for write.</p>
+<p><code>:q!</code> - To quit without saving. Did you edit a file and don&#39;t want to commit that change? These keystrokes will exit vim and NOT save your file.</p>
+<p><code>:q</code> - These keystrokes will quit the vim program. You can also do <code>:wq</code> to save the file and quit right away. <code>:q</code> will not work unless you have saved your file or you have made no changes what-so-ever.</p>
+<p><code>dd</code> - When you are NOT in edit mode this will delete an entire line. (Make sure your cursor is on the line you want to delete)</p>
+<p><code>0</code> - zero will take you to the beginning of a line</p>
+<p><code>$</code> - will take you to the end of a line</p>
+<p>There is a LOT that <code>vim</code> can do but we won&#39;t list it all here. Do a search on the internet to learn more! You can also check out a <code>vim</code> command cheat sheet, <a href="https://vim.rtorr.com/" target="_blank">here</a> and <a href="https://devhints.io/vim" target="_blank">here</a>. But at the end of this lesson will be a couple more commands that you will find to be amazingly helpful! You can also check out <code>vimtutor</code>:</p>
 <pre>~$ vimtutor</pre>
 <aside class="special"><p>TASK: There is a file in /tmp/editme called editme.txt Open that up in vim. Delete lines 4 and 5 and add 2 more lines of anything you would like at the end of the file. Don&#39;t forget to save.</p>
 </aside>
@@ -226,28 +227,28 @@
     
       <google-codelab-step label="More Commands" duration="0">
         <h2>        <strong>mv</strong></h2>
-<p>mv is used to move a file from one location to another, or to rename a file. Type man mv to learn more.</p>
+<p><code>mv</code> is used to move a file from one location to another, or to rename a file. Type <code>man mv</code> to learn more.</p>
 <h2><strong>cp</strong></h2>
-<p>cp is used to copy a file to a new location. Type man cp to learn more.</p>
+<p><code>cp</code> is used to copy a file to a new location. Type <code>man cp</code> to learn more.</p>
 <h2><strong>less</strong></h2>
-<p>Less is more. The command less is used to open larger files, page by page. It allows you more tools to read a file in an organized fashion. </p>
+<p><code>less</code> is more. The command less is used to open larger files, page by page. It allows you more tools to read a file in an organized fashion. </p>
 <h2><strong>cowsay</strong></h2>
-<p>cowsay is probably one of the best commands... ever. Well maybe not ever but it is fun! </p>
+<p><code>cowsay</code> is probably one of the best commands... ever. Well maybe not ever but it is fun! </p>
 <pre>~$ cowsay &#34;this is fun&#34;</pre>
 <h2><strong>fortune</strong></h2>
-<p>fortune gives you, well, a fortune! Go ahead give it a whirl!</p>
+<p><code>fortune</code> gives you, well, a fortune! Go ahead give it a whirl!</p>
 <pre>~$ fortune</pre>
 <h2><strong>Piping</strong></h2>
-<p>Piping is a new concept but stick with me on this one. When you give arguments to a command it is considered a standard in (STDIN). In other words it is data that is fed to a program/command. Whereas when  you see something printed out back to you it is using standard out (STDOUT). A pipe, also recognized as | is used when you want something that is a STDOUT to then be used as the STDIN. To understand this we will use a fund example.</p>
-<p>Remember fortune? If we just type fortune we get a fortune back. That fortune we get back is a STDOUT. But when we use cowsay we type something for the cow to say, which is STDIN. So we can use a pipe to take our fortune and have the cow say it!</p>
+<p>Piping is a new concept but stick with me on this one. When you give arguments to a command it is considered a standard in (STDIN). In other words it is data that is fed to a program/command. Whereas when  you see something printed out back to you it is using standard out (STDOUT). A pipe, also recognized as <code>|</code> is used when you want something that is a STDOUT to then be used as the STDIN. To understand this we will use a fund example.</p>
+<p>Remember fortune? If we just type fortune we get a fortune back. That fortune we get back is a STDOUT. But when we use <code>cowsay</code> we type something for the cow to say, which is STDIN. So we can use a pipe to take our fortune and have the cow say it!</p>
 <pre>~$ fortune | cowsay</pre>
 <h2><strong>More vim</strong></h2>
-<p>There are a few more really useful commands I would like to teach you about vim. </p>
+<p>There are a few more really useful commands I would like to teach you about <code>vim</code>. </p>
 <p>If you want to open up multiple files at the same time you can do:</p>
 <pre>~$ vim fileone filetwo.c filethree.h filefour.cc</pre>
-<p>Or you can open up another file or create a new file while you are still in vim with:</p>
+<p>Or you can open up another file or create a new file while you are still in <code>vim</code> with:</p>
 <pre>:e anotherfile.js</pre>
-<p>:b - And you can jump from file to file with the :b keystrokes and using tab to go through which file you would like to edit next</p>
+<p><code>:b</code> - And you can jump from file to file with the <code>:b</code> keystrokes and using tab to go through which file you would like to edit next</p>
 
 
       </google-codelab-step>
