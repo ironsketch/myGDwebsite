@@ -6,10 +6,9 @@
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
   <meta name="theme-color" content="#4F7DC9">
   <meta charset="UTF-8">
-  <meta name="description" content="Learn the basics of the Linux/Unix command line!">
   <title>Getting Started with Linux Command Line</title>
-  <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
-  <link rel="import" href="../elements/codelab.html">
+  <script src="../../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+  <link rel="import" href="../../elements/codelab.html">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
   <style is="custom-style">
     body {
@@ -179,7 +178,7 @@
 <pre>~$ echo newfile &gt;&gt; secondfile
 ~$ cat secondfile</pre>
 <p>You can see the newfile appended to the end of secondfile whereas if you <code>cat</code> newfile it will still only have what we added to it earlier.</p>
-<aside class="special"><p>TASK: There is a folder in the /tmp directory called textfiles. There are three files, append them all to a new file called, alltogether.txt </p>
+<aside class="special"><p>TASK: There is a folder in the /tmp directory called textfiles. There are three files, append them all to a new file called, alltogether.txt in your personal directory. (Your home directory)</p>
 <p>There are many ways to accomplish this in one line. It&#39;s not necessary but here is a hint for one way, type</p>
 <p>echo &#34;one&#34;; echo &#34;two&#34;; echo &#34;three&#34;;</p>
 </aside>
@@ -205,7 +204,7 @@
 <p><code>$</code> - will take you to the end of a line</p>
 <p>There is a LOT that <code>vim</code> can do but we won&#39;t list it all here. Do a search on the internet to learn more! You can also check out a <code>vim</code> command cheat sheet, <a href="https://vim.rtorr.com/" target="_blank">here</a> and <a href="https://devhints.io/vim" target="_blank">here</a>. But at the end of this lesson will be a couple more commands that you will find to be amazingly helpful! You can also check out <code>vimtutor</code>:</p>
 <pre>~$ vimtutor</pre>
-<aside class="special"><p>TASK: There is a file in /tmp/editme called editme.txt Open that up in vim. Delete lines 4 and 5 and add 2 more lines of anything you would like at the end of the file. Don&#39;t forget to save.</p>
+<aside class="special"><p>TASK: There is a file in /tmp/editme called editme.txt copy it to your home directory and open that up in vim. Delete lines 4 and 5 and add 2 more lines of anything you would like at the end of the file. Don&#39;t forget to save.</p>
 </aside>
 <h2><strong>Wild Card and Regular expressions</strong></h2>
 <p>Regular expressions are used to help you find something on your computer and can be used in programming to enhance your programs. There are a LOT of websites out there that teach you all about it but the gist is that you can use symbols like a * to mean something when parsing through text. For example the * is a wild card. Let&#39;s say I wanted to find a file with the word spekter in it. But there could be other text before and after the word spekter. So I could say search for, *spekter*. This means, search for spekter and I don&#39;t care if there is anything else before or after. </p>
@@ -222,7 +221,7 @@
 <li>-iname is telling the name of the file we are looking for. You can also use -name but -iname is case insensitive. This means that my search will pull up, SpeKter as well.</li>
 <li>Lastly, the *&#39;s on either side again tell find that I want everything with spekter in it, regardless of what is around it. If I did not add that, my find will pull up nothing.</li>
 </ul>
-<aside class="special"><p>TASK: Hidden throughout are image files with the name, edurange. Take your skills and find all 5. Create a new file and put the location and type of each in that file. Remember there are many types of file images. Png, jpg, jpeg, and gif to name the widely used ones.</p>
+<aside class="special"><p>TASK: Hidden throughout are image files with the name, edurange. Take your skills and find all 6. Create a new file and put the location and type of each in that file. Remember there are many types of file images. Png, jpg, jpeg, and gif to name the widely used ones.</p>
 </aside>
 
 
@@ -258,7 +257,7 @@
     
       <google-codelab-step label="Final Mission" duration="0">
         <p>        Here at CyberSec you have been well trained recruit, now let&#39;s put your training to test! This is a real mission of the utmost importance. Complete this and you are assured a spot on our team.</p>
-<aside class="special"><p>TASK: Our intelligence has told us that somewhere in your computer is an image that is vital to our company. This image has a weird name but we know for certain that it contains the word ‘cow&#39; in it. Through our sources we also know that there is ANOTHER file in that folder. <strong>COPY</strong> both the image and second file to the folder, /tmp/final-mission. Then create a new file in the folder, /tmp/final-mission, called ‘cowsay.file&#39; with the contents of the <code>cowsay man</code> file in it. </p>
+<aside class="special"><p>TASK: Our intelligence has told us that somewhere in your computer is an image that is vital to our company. This image has a weird name but we know for certain that it contains the word ‘cowFJS&#39; in it. Through our sources we also know that there is ANOTHER file in that folder. <strong>COPY</strong> both the image and second file to your home directory in a new folder, called final-mission. Then create a new file in the folder, final-mission, called ‘cowsay.file&#39; with the contents of the <code>cowsay man</code> file in it. </p>
 </aside>
 
 
