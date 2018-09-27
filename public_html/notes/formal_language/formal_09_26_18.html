@@ -1,5 +1,5 @@
 <html>
-    <head><title>09-26-18</title>
+    <head><title>Formal 09-26-18</title>
                    <meta charset="UTF-8">
                    <meta name = "viewport" content = "width = device-width, initial-scale = 1, maximum-scale = 1">
                    <style id="style">
@@ -718,7 +718,7 @@ body[data-theme="monokai"] kbd {
 body {
   font-family: 'Lato','meiryo','Microsoft YaHei','helvetica','arial','sans-serif';
   font-size: 14px;
-  false
+  padding-bottom: 90vh;
 }
 code {
   font-family: 'Monaco','Consolas','Monaco','Menlo','Ubuntu Mono','Consolas','source-code-pro','monospace';
@@ -768,7 +768,7 @@ body p {
 }
 
 @media print {
-  body[data-theme="dark"] {
+  body[data-theme="solarized-dark"] {
     color: #000;
     background-color: #fff;
   }
@@ -779,7 +779,8 @@ body p {
 </style>
                    <link rel="stylesheet" href="css/dracula.css"><link rel="stylesheet" href="css/katex.min.css"><link rel="stylesheet" href="css/codemirror.css">
                  </head>
-                 <body><p data-line="0">Diagonalization argument<br />
+                 <body><h2 data-line="0" id="9-26-18">9-26-18</h2>
+<p data-line="2">Diagonalization argument<br />
 <strong>Subset</strong> : If all m ∈ Y are in X<br />
 <strong>Proper Subset</strong> : Same as above but Y ≠ X<br />
 <strong>Intersection</strong> : {z | z ∈ X ^ z ∈ Y}<br />
@@ -790,15 +791,15 @@ body p {
 <li>X = the union of all subsets</li>
 <li>The intersection of any subsets is ∅</li>
 </ol>
-<p data-line="11"><strong>Difference</strong> : X - Y = {z | z ∈ X ^ z ∉ Y}<br />
+<p data-line="13"><strong>Difference</strong> : X - Y = {z | z ∈ X ^ z ∉ Y}<br />
 <strong>Complement</strong> : Everything but what is in X<br />
 <strong>Classic way to prove X = Y</strong> : X ⊂ Y ^ Y ⊂ X</p>
-<p data-line="15"><strong>Example</strong></p>
+<p data-line="17"><strong>Example</strong></p>
 <ul>
 <li>x = {n | n = m^2 for some m ∈ N &gt; 0}</li>
 <li>y = {n^2 + 2n + 1 | n ≥ 0}</li>
 </ul>
-<p data-line="19"><strong>X ⊂ Y</strong> :<br />
+<p data-line="21"><strong>X ⊂ Y</strong> :<br />
 x ∈ X ⇒ x = m^2, for some m ∈ N &gt; 0</p>
 <ul>
 <li>m^2 = (m - 1 + 1)^2</li>
@@ -808,13 +809,13 @@ x ∈ X ⇒ x = m^2, for some m ∈ N &gt; 0</p>
 <li>by the first condition</li>
 <li>m - 1 ≥ 0 for the second</li>
 </ul>
-<p data-line="28"><strong>Y ⊂ X</strong></p>
+<p data-line="30"><strong>Y ⊂ X</strong></p>
 <ul>
 <li>y = n^2 + 2n + 1</li>
 <li>= (n + 1)^2</li>
 <li>So m = n + 1</li>
 <li>Since n ≥ 0, m &gt; 0</li>
 </ul>
-<p data-line="34"><strong>Cartesian Product</strong> : X x Y = {(x,y) | x ∈ X and y ∈ Y}</p>
+<p data-line="36"><strong>Cartesian Product</strong> : X x Y = {(x,y) | x ∈ X and y ∈ Y}</p>
 </body>
               </html>
