@@ -33,7 +33,46 @@
                                 echo "<div id='card'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" . $path . $file . "' class='startLink'>Start</a></p></div>";
                             }
                         }
-                    closedir($handle);
+                        closedir($handle);
+                    }
+                $path = "types/";
+                    if ($handle = opendir($path)) {
+                        while (false !== ($file = readdir($handle))) {
+                            if ('.' === $file) continue;
+                            if ('..' === $file) continue;
+                            $html = explode(".", $file);
+                            if($html[1] === "html"){
+                                $title = get_title("docs/" . $file);
+                                echo "<div id='card'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" . $path . $file . "' class='startLink'>Start</a></p></div>";
+                            }
+                        }
+                        closedir($handle);
+                    }
+                $path = "logic_programming/";
+                    if ($handle = opendir($path)) {
+                        while (false !== ($file = readdir($handle))) {
+                            if ('.' === $file) continue;
+                            if ('..' === $file) continue;
+                            $html = explode(".", $file);
+                            if($html[1] === "html"){
+                                $title = get_title("docs/" . $file);
+                                echo "<div id='card'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" .  $path . $file . "' class='startLink'>Start</a></p></div>";
+                            }
+                        }
+                        closedir($handle);
+                    }
+                $path = "lambda/";
+                    if ($handle = opendir($path)) {
+                        while (false !== ($file = readdir($handle))) {
+                            if ('.' === $file) continue;
+                            if ('..' === $file) continue;
+                            $html = explode(".", $file);
+                            if($html[1] === "html"){
+                                $title = get_title("docs/" . $file);
+                                echo "<div id='card'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" . $path . $file . "' class='startLink'>Start</a></p></div>";
+                            }
+                        }
+                        closedir($handle);
                     }
                 ?>          
 			</div>
