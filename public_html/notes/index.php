@@ -22,6 +22,7 @@
                     return $title[1];
                     }
                 }
+                echo "<h3>Formal Languages</h3>";
                 $path = "formal_language/";
                     if ($handle = opendir($path)) {
                         while (false !== ($file = readdir($handle))) {
@@ -35,6 +36,7 @@
                         }
                         closedir($handle);
                     }
+                echo "<h3>Types</h3>";
                 $path = "types/";
                     if ($handle = opendir($path)) {
                         while (false !== ($file = readdir($handle))) {
@@ -42,12 +44,13 @@
                             if ('..' === $file) continue;
                             $html = explode(".", $file);
                             if($html[1] === "html"){
-                                $title = get_title("docs/" . $file);
-                                echo "<div id='card'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" . $path . $file . "' class='startLink'>Start</a></p></div>";
+                                $title = get_title($path . $file);
+                                echo "<div id='card'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" . $path . $file . "' class='startLink'>Open</a></p></div>";
                             }
                         }
                         closedir($handle);
                     }
+                echo "<h3>Logic Programming</h3>";
                 $path = "logic_programming/";
                     if ($handle = opendir($path)) {
                         while (false !== ($file = readdir($handle))) {
@@ -55,12 +58,13 @@
                             if ('..' === $file) continue;
                             $html = explode(".", $file);
                             if($html[1] === "html"){
-                                $title = get_title("docs/" . $file);
-                                echo "<div id='card'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" .  $path . $file . "' class='startLink'>Start</a></p></div>";
+                                $title = get_title($path . $file);
+                                echo "<div id='card'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" .  $path . $file . "' class='startLink'>Open</a></p></div>";
                             }
                         }
                         closedir($handle);
                     }
+                echo "<h3>Lambda</h3>";
                 $path = "lambda/";
                     if ($handle = opendir($path)) {
                         while (false !== ($file = readdir($handle))) {
@@ -68,8 +72,8 @@
                             if ('..' === $file) continue;
                             $html = explode(".", $file);
                             if($html[1] === "html"){
-                                $title = get_title("docs/" . $file);
-                                echo "<div id='card'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" . $path . $file . "' class='startLink'>Start</a></p></div>";
+                                $title = get_title($path . $file);
+                                echo "<div id='card'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" . $path . $file . "' class='startLink'>Open</a></p></div>";
                             }
                         }
                         closedir($handle);
