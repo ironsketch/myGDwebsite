@@ -29,7 +29,7 @@
                             if ('..' === $file) continue;
                             $html = explode(".", $file);
                             if($html[1] === "html"){
-                                $title = get_title("docs/" . $file);
+                                $title = get_title($path . $file);
                                 echo "<div id='card'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" . $path . $file . "' class='startLink'>Start</a></p></div>";
                             }
                         }
