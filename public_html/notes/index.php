@@ -5,10 +5,10 @@
 	<body>
 		<div id="container">
 			<div id="top">
-				<div id="title">
+                <img style="float:right;" src="cat.gif" />
+                <div id="title">
 					<h1>NOTES</h1>
                 </div>
-            <img style="float:right;" src="cat.gif" />
 			</div>
 			<div id="heading">
 				<br>Notes from classes
