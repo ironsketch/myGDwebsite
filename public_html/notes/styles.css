@@ -79,7 +79,7 @@ a.startLink:hover {
 	margin-top: 20px;
 	border-radius: 25px;
 	background: #564438;
-	width: 200px;
+	width: 100px;
 	height: 100px;
     display: inline-block;
 }
@@ -90,7 +90,7 @@ a.startLink:hover {
     margin-top: 20px;
     border-radius: 25px;
     background: #455268;
-    width: 200px;
+    width: 100px;
     height: 100px;
     display: inline-block;
 }
@@ -101,7 +101,7 @@ a.startLink:hover {
     margin-top: 20px;
     border-radius: 25px;
     background: #496845;
-    width: 200px;
+    width: 100px;
     height: 100px;
     display: inline-block;
 }
@@ -112,7 +112,7 @@ a.startLink:hover {
     margin-top: 20px;
     border-radius: 25px;
     background: #63425f;
-    width: 200px;
+    width: 100px;
     height: 100px;
     display: inline-block;
 }
