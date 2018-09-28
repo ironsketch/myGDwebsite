@@ -5,13 +5,13 @@
 	<body>
 		<div id="container">
 			<div id="top">
-                <img style="float:right;" src="cat.gif" />
+                <img style="float:right;padding-right:20px;" src="cat.gif" />
                 <div id="title">
-					<h1>NOTES</h1>
+					<h1>Programming Language Theory and Practice Notes</h1>
                 </div>
 			</div>
 			<div id="heading">
-				<br>Notes from classes
+				<br>Notes from my 2018-19 classes :3 Which includes Foundations of Programming Languages (Lambda Calculus), Types and Programming Languages, Formal Languages, and Logic Programming
 			</div>
 			<div id="cardHolder">
             <?php
