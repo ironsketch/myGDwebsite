@@ -31,7 +31,7 @@
                             $html = explode(".", $file);
                             if($html[1] === "html"){
                                 $title = get_title($path . $file);
-                                echo "<div id='card'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" . $path . $file . "' class='startLink'>Open</a></p></div>";
+                                echo "<div id='cardFormal'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" . $path . $file . "' class='startLink'>Open</a></p></div>";
                             }
                         }
                         closedir($handle);
@@ -45,7 +45,7 @@
                             $html = explode(".", $file);
                             if($html[1] === "html"){
                                 $title = get_title($path . $file);
-                                echo "<div id='card'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" . $path . $file . "' class='startLink'>Open</a></p></div>";
+                                echo "<div id='cardType'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" . $path . $file . "' class='startLink'>Open</a></p></div>";
                             }
                         }
                         closedir($handle);
@@ -59,7 +59,7 @@
                             $html = explode(".", $file);
                             if($html[1] === "html"){
                                 $title = get_title($path . $file);
-                                echo "<div id='card'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" .  $path . $file . "' class='startLink'>Open</a></p></div>";
+                                echo "<div id='cardLogic'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" .  $path . $file . "' class='startLink'>Open</a></p></div>";
                             }
                         }
                         closedir($handle);
@@ -73,7 +73,7 @@
                             $html = explode(".", $file);
                             if($html[1] === "html"){
                                 $title = get_title($path . $file);
-                                echo "<div id='card'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" . $path . $file . "' class='startLink'>Open</a></p></div>";
+                                echo "<div id='cardLambda'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" . $path . $file . "' class='startLink'>Open</a></p></div>";
                             }
                         }
                         closedir($handle);
