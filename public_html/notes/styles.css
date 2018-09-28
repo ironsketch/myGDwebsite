@@ -66,6 +66,7 @@ a.startLink:hover {
 }
 #cardHolder {
 	padding: 0px;
+    padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 30px;
 	background-color: #ececec;
