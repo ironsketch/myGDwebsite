@@ -7,7 +7,8 @@
 			<div id="top">
 				<div id="title">
 					<h1>NOTES</h1>
-				</div>
+                </div>
+            <img style="float:right;" src="cat.gif" />
 			</div>
 			<div id="heading">
 				<br>Notes from classes
