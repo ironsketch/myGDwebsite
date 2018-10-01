@@ -79,6 +79,48 @@
                         }
                         closedir($handle);
                     }
+                echo "<h3>BOOK Sudkamp</h3>";
+                 $path = "sudkamp/";
+                     if ($handle = opendir($path)) {
+                         while (false !== ($file = readdir($handle))) {
+                             if ('.' === $file) continue;
+                             if ('..' === $file) continue;
+                             $html = explode(".", $file);
+                             if($html[1] === "html"){
+                                 $title = get_title($path . $file);
+                                 echo "<div id='cardFormal'><span class='cardtitle'>" . $title . "</span><p class='start'><a           href='" . $path . $file . "' class='startLink'>Open</a></p></div>";
+                             }
+                         }
+                         closedir($handle);
+                     }
+                echo "<h3>BOOK Pierce</h3>";
+                 $path = "pierce/";
+                     if ($handle = opendir($path)) {
+                         while (false !== ($file = readdir($handle))) {
+                             if ('.' === $file) continue;
+                             if ('..' === $file) continue;
+                             $html = explode(".", $file);
+                             if($html[1] === "html"){
+                                 $title = get_title($path . $file);
+                                 echo "<div id='cardType'><span class='cardtitle'>" . $title . "</span><p class='start'><a           href='" . $path . $file . "' class='startLink'>Open</a></p></div>";
+                             }
+                         }
+                         closedir($handle);
+                     }
+                echo "<h3>PDFs</h3>";
+                 $path = "pdfs/";
+                     if ($handle = opendir($path)) {
+                         while (false !== ($file = readdir($handle))) {
+                             if ('.' === $file) continue;
+                             if ('..' === $file) continue;
+                             $html = explode(".", $file);
+                             if($html[1] === "html"){
+                                 $title = get_title($path . $file);
+                                 echo "<div id='cardLogic'><span class='cardtitle'>" . $title . "</span><p class='start'><a           href='" . $path . $file . "' class='startLink'>Open</a></p></div>";
+                             }
+                         }
+                         closedir($handle);
+                     }
                 ?>          
 			</div>
 			<div id="bottom">
