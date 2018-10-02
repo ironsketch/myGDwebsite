@@ -37,6 +37,19 @@
                         }
                         closedir($handle);
                     }
+                echo "<h3>Homework</h3>";
+                 $path = "formal_language/hw/";
+                     if ($handle = opendir($path)) {
+                         while (false !== ($file = readdir($handle))) {
+                             if ('.' === $file) continue;
+                             if ('..' === $file) continue;
+                             $html = explode(".", $file);
+                             if($html[1] === "pdf"){
+                                 echo "<br />" . $file . "<a href='" . $path . $file . "'>Open</a>";
+                             }
+                         }
+                         closedir($handle);
+                     }
                 echo "<h3>Types</h3>";
                 $path = "types/";
                     if ($handle = opendir($path)) {
