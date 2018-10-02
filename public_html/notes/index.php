@@ -45,7 +45,7 @@
                              if ('..' === $file) continue;
                              $html = explode(".", $file);
                              if($html[1] === "pdf"){
-                                 echo "<br />" . $file . "<a href='" . $path . $file . "'>Open</a>";
+                                 echo "<br /><a href='" . $path . $file . "'>" . $file . "</a>";
                              }
                          }
                          closedir($handle);
