@@ -38,7 +38,7 @@
                         }
                         closedir($handle);
                     }
-                echo "<h3>Homework</h3>";
+                echo "<h3 class='homework'>Homework</h3>";
                  $path = "formal_language/hw/";
                      if ($handle = opendir($path)) {
                          while (false !== ($file = readdir($handle))) {
@@ -67,7 +67,7 @@
                         }
                         closedir($handle);
                     }
-                echo "<h3>Homework</h3>";
+                echo "<h3 class='homework'>Homework</h3>";
                   $path = "types/hw/";
                       if ($handle = opendir($path)) {
                           while (false !== ($file = readdir($handle))) {
@@ -96,7 +96,7 @@
                         }
                         closedir($handle);
                     }
-                echo "<h3>Homework</h3>";
+                echo "<h3 class='homework'>Homework</h3>";
                    $path = "logic_programming/hw/";
                        if ($handle = opendir($path)) {
                            while (false !== ($file = readdir($handle))) {
@@ -125,7 +125,7 @@
                         }
                         closedir($handle);
                     }
-                 echo "<h3>Homework</h3>";
+                 echo "<h3 class='homework'>Homework</h3>";
                     $path = "lambda/hw/";
                         if ($handle = opendir($path)) {
                             while (false !== ($file = readdir($handle))) {
