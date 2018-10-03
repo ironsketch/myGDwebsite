@@ -97,7 +97,7 @@ a.startLink:hover {
     border-radius: 25px;
     background: #455268;
     width: 85px;
-    height: 100px;
+    height: 80px;
     display: inline-block;
 }
 #cardType {
@@ -108,7 +108,7 @@ a.startLink:hover {
     border-radius: 25px;
     background: #496845;
     width: 85px;
-    height: 100px;
+    height: 80px;
     display: inline-block;
 }
 #cardFormal {
@@ -119,7 +119,7 @@ a.startLink:hover {
     border-radius: 25px;
     background: #63425f;
     width: 85px;
-    height: 100px;
+    height: 80px;
     display: inline-block;
 }
 #bottom {
