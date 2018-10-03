@@ -23,7 +23,7 @@
                     return $title[1];
                     }
                 }
-                echo "<div class='one'>";
+                echo "<div id='one'>";
                 echo "<h3>Formal Languages</h3>";
                 $path = "formal_language/";
                     if ($handle = opendir($path)) {
@@ -52,7 +52,7 @@
                          closedir($handle);
                      }
                 echo "</div>";
-                echo "<div class='two'>";
+                echo "<div id='two'>";
                 echo "<h3>Types</h3>";
                 $path = "types/";
                     if ($handle = opendir($path)) {
@@ -81,7 +81,7 @@
                           closedir($handle);
                       }
                 echo "</div>";
-                echo "<div class='one'>";
+                echo "<div id='one'>";
                 echo "<h3>Logic Programming</h3>";
                 $path = "logic_programming/";
                     if ($handle = opendir($path)) {
@@ -110,7 +110,7 @@
                            closedir($handle);
                        }
                 echo "</div>";
-                echo "<div class='two'>";
+                echo "<div id='two'>";
                 echo "<h3>Lambda</h3>";
                 $path = "lambda/";
                     if ($handle = opendir($path)) {
