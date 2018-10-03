@@ -46,7 +46,7 @@
                              if ('..' === $file) continue;
                              $html = explode(".", $file);
                              if($html[1] === "pdf"){
-                                 echo "<br /><a href='" . $path . $file . "'>" . $file . "</a>";
+                                 echo "<p class='start'><a style='startlink' href='" . $path . $file . "'>" . $file . "</a></p>";
                              }
                          }
                          closedir($handle);
@@ -75,7 +75,7 @@
                               if ('..' === $file) continue;
                               $html = explode(".", $file);
                               if($html[1] === "pdf"){
-                                  echo "<br /><a href='" . $path . $file . "'>" . $file . "</a>";
+                                  echo "<p class='start'><a style='startlink' href='" . $path . $file . "'>" . $file . "</a></p>";
                               }
                           }
                           closedir($handle);
@@ -104,7 +104,7 @@
                                if ('..' === $file) continue;
                                $html = explode(".", $file);
                                if($html[1] === "pdf"){
-                                   echo "<br /><a href='" . $path . $file . "'>" . $file . "</a>";
+                                   echo "<p class='start'><a style='startlink' href='" . $path . $file . "'>" . $file . "</a></p>";
                                }
                            }
                            closedir($handle);
@@ -133,7 +133,7 @@
                                 if ('..' === $file) continue;
                                 $html = explode(".", $file);
                                 if($html[1] === "pdf"){
-                                    echo "<br /><a href='" . $path . $file . "'>" . $file . "</a>";
+                                    echo "<p class='start'><a style='startlink' href='" . $path . $file . "'>" . $file . "</a></p>";
                                 }
                             }
                             closedir($handle);

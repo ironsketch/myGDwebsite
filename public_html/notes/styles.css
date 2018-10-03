@@ -48,9 +48,12 @@ a.startLink:hover {
 }
 #one {
     background-color:#003366;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 #two {
-
+    padding-left: 20px;
+     padding-right: 20px;
 }
 #top {
 	padding: 10px;
