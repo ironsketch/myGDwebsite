@@ -103,7 +103,7 @@
                                if ('.' === $file) continue;
                                if ('..' === $file) continue;
                                $html = explode(".", $file);
-                               if($html[1] === "pdf"){
+                               if($html[1] === "pdf" or "hs" or "pl"){
                                    echo "<p class='start'><a class='startLink' href='" . $path . $file . "'>" . $file . "</a></p>";
                                }
                            }
