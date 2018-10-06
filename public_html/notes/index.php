@@ -96,20 +96,20 @@
                         }
                         closedir($handle);
                     }
-                echo "<h3 class='homework'>Homework</h3>";
+                echo "<h3 class='homework'>Homework</h3><p class='start'>";
                    $path = "logic_programming/hw/";
                        if ($handle = opendir($path)) {
                            while (false !== ($file = readdir($handle))) {
                                if ('.' === $file) continue;
                                if ('..' === $file) continue;
                                $html = explode(".", $file);
-                               if($html[1] === "pdf" or "hs" or "pl"){
-                                   echo "<p class='start'><a class='startLink' href='" . $path . $file . "'>" . $file . "</a></p>";
+                               if($html[1] === "pdf" or $html[1] === "hs" or $html[1] === "pl"){
+                                   echo "<a class='startLink' href='" . $path . $file . "'>" . $file . "</a>";
                                }
                            }
                            closedir($handle);
                        }
-                echo "</div>";
+                echo "</p></div>";
                 echo "<div id='two'>";
                 echo "<h3>Lambda</h3>";
                 $path = "lambda/";
