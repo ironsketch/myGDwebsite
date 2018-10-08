@@ -14,7 +14,7 @@
 				<br>Notes from my 2018-19 classes :3 Which includes Foundations of Programming Languages (Lambda Calculus), Types and Programming Languages, Formal Languages, and Logic Programming
             </div>
             <div id="top_nav">
-                This is where my new nav will go. <a class="top_nav" href="google.com">testing</a>
+                <a class="top_nav" href="google.com">testing</a>
             </div>
 			<div id="cardHolder">
             <?php
