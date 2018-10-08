@@ -14,7 +14,7 @@
 				<br>Notes from my 2018-19 classes :3 Which includes Foundations of Programming Languages (Lambda Calculus), Types and Programming Languages, Formal Languages, and Logic Programming
             </div>
             <div id="top_nav">
-                <a class="top_nav" href="google.com">testing</a>
+                <a class="top_nav" href="formal_languages/">Formal Languages</a><a class="top_nav" href="logic/">Logic Programming</a>
             </div>
 			<div id="cardHolder">
             <?php
