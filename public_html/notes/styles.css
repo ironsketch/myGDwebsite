@@ -49,16 +49,19 @@ a.startLink:hover {
 }
 a.top_nav {
     color: #ff0000;
+    background-color: #ffffff;
     text-decoration: none;
     padding: 10px 20px 10px 20px;
 }
 a.top_nav:visited {
     color: #ff0000;
+    background-color: #ffffff;
     text-decoration: none;
     padding: 10px 20px 10px 20px;
 }
 a.top_nav:hover {
     color: #ff0000;
+    background-color: #ffffff;
     text-decoration: none;
     padding: 10px 20px 10px 20px;
 }
