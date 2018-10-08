@@ -44,6 +44,12 @@ a.startLink:hover {
 	background-color: #2a79b6;
 	
 }
+#top_nav {
+
+}
+a.top_nav {
+    color: #ff0000;
+}
 #container {
 	width: 100%;
 	text-align: center;

@@ -12,7 +12,10 @@
 			</div>
 			<div id="heading">
 				<br>Notes from my 2018-19 classes :3 Which includes Foundations of Programming Languages (Lambda Calculus), Types and Programming Languages, Formal Languages, and Logic Programming
-			</div>
+            </div>
+            <div id="top_nav">
+                This is where my new nav will go. <a href="google.com">testing</a>
+            </div>
 			<div id="cardHolder">
             <?php
                 function get_title($url){
@@ -142,8 +145,8 @@
                 ?>          
 			</div>
 			<div id="bottom">
-				<br> This is a bunch of text n' stuff!
-				<p class="copyright">Copyright &copy; 2017</p>
+				<br> Thanks for checking out my mafff and pergrehming sight.
+				<p class="copyright">Copyright &copy; 2017 and beyond</p>
 			</div>
 		</div>
 	</body>
