@@ -2,7 +2,7 @@
 * Logic Programming
 * Michelle Bergin
 *
-* TOC Trace, A very simple sentence generator, Finding paths through a maze, A representation of natural numbers, add, Traveling by car, train, and plane, 
+* TOC Trace, A very simple sentence generator, Finding paths through a maze, A representation of natural numbers, add, Traveling by car, train, and plane, Crossword puzzle 
 *
 * Trace
 */
@@ -125,5 +125,43 @@ oneStep(X,Y):- byPlane(X,Y).
 travel(X,Y):- oneStep(X,Y).
 travel(X,Y):- oneStep(X,Z), travel(Z,Y).
 
-travel(X,Y,Z):- oneStep(X,Y).
-travel(X,Y,Z):- oneStep(X,Z), travel(Z,Y).
+oneStep(X,Y,byCar):- byCar(X,Y).
+oneStep(X,Y,byTrain):- byTrain(X,Y).
+oneStep(X,Y,byPlane):- byPlane(X,Y).
+travel(X,Y,go(X,Y,Transport)):- oneStep(X,Y,Transport).
+travel(X,Y,go(X,Z,Transport,Path)):- oneStep(X,Z,Transport), travel(Z,Y,Path).
+
+/*
+* Crossword Puzzle
+*/
+word(abalone,a,b,a,l,o,n,e).
+word(abandon,a,b,a,n,d,o,n).
+word(enhance,e,n,h,a,n,c,e).
+word(anagram,a,n,a,g,r,a,m).
+word(connect,c,o,n,n,e,c,t).
+word(elegant,e,l,e,g,a,n,t).
+
+crossword(V1,V2,V3,H1,H2,H3):- 
+    word(V1,_,A,_,B,_,C,_),
+    word(V2,_,D,_,E,_,F,_),
+    word(V3,_,G,_,H,_,I,_),
+    word(H1,_,A,_,D,_,G,_),
+    word(H2,_,B,_,E,_,H,_),
+    word(H3,_,C,_,F,_,I,_).
+
+/*
+* ?- crossword(A,B,C,D,E,F).
+* A = abalone,
+* B = anagram,
+* C = connect,
+* D = abandon,
+* E = elegant,
+* F = enhance ;
+* A = abandon,
+* B = elegant,
+* C = enhance,
+* D = abalone,
+* E = anagram,
+* F = connect ;
+*/
+
