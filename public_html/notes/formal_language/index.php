@@ -41,7 +41,7 @@
                             $html = explode(".", $file);
                             if($html[1] === "html"){
                                 $title = get_title($path . $file);
-                                echo "<div id='cardFormal'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" . $path . $file . "' class='startLink'>Open</a></p></div>";
+                                echo "<div id='cardFormal'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" . $file . "' class='startLink'>Open</a></p></div>";
                             }
                         }
                         closedir($handle);
@@ -54,7 +54,7 @@
                              if ('..' === $file) continue;
                              $html = explode(".", $file);
                              if($html[1] === "pdf"){
-                                 echo "<p class='start'><a class='startLink' href='" . $path . $file . "'>" . $file . "</a></p>";
+                                 echo "<p class='start'><a class='startLink' href='" . $file . "'>" . $file . "</a></p>";
                              }
                          }
                          closedir($handle);
