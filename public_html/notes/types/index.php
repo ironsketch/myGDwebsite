@@ -15,7 +15,7 @@
 This course focuses on the the mathematical foundations for types in programming languages. The approach starts with the development of types for the Lambda Calculus. The fall quarter emphasizes the core type theory and the winter quarter leans toward type extensions and implementations.
             </div>
             <div id="top_nav">
-                <a class="top_nav" href="../">Home</a><a class="top_nav" href="formal_language/">Formal</a><a class="top_nav" href="logic/">Logic</a><a class="top_nav" href="lambda/">Lambda</a><a class="top_nav" href="types/">Types</a>
+                <a class="top_nav" href="../">Home</a><a class="top_nav" href="../formal_language/">Formal</a><a class="top_nav" href="../logic/">Logic</a><a class="top_nav" href="../lambda/">Lambda</a><a class="top_nav" href="../types/">Types</a>
             </div>
 			<div id="cardHolder">
             <?php
@@ -49,7 +49,7 @@ This course focuses on the the mathematical foundations for types in programming
                              if ('..' === $file) continue;
                              $html = explode(".", $file);
                              if($html[1] === "pdf"){
-                                 echo "<p class='start'><a class='startLink' href='" . $file . "'>" . $file . "</a></p>";
+                                 echo "<p class='start'><a class='startLink' href='" . $path . $file . "'>" . $file . "</a></p>";
                              }
                          }
                          closedir($handle);
