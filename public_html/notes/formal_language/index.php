@@ -19,7 +19,7 @@
 <br />- the relationship of grammars to languages and how to use the formal properties of grammars and machines to prove properties about classes of languages.
             </div>
             <div id="top_nav">
-                <a class="top_nav" href="../">Home</a><a class="top_nav" href="formal_language/">Formal</a><a class="top_nav" href="logic/">Logic</a><a class="top_nav" href="lambda/">Lambda</a><a class="top_nav" href="types/">Types</a>
+                <a class="top_nav" href="../">Home</a><a class="top_nav" href="../formal_language/">Formal</a><a class="top_nav" href="../logic/">Logic</a><a class="top_nav" href="../lambda/">Lambda</a><a class="top_nav" href="../types/">Types</a>
             </div>
 			<div id="cardHolder">
             <?php
@@ -54,7 +54,7 @@
                              if ('..' === $file) continue;
                              $html = explode(".", $file);
                              if($html[1] === "pdf"){
-                                 echo "<p class='start'><a class='startLink' href='" . $file . "'>" . $file . "</a></p>";
+                                 echo "<p class='start'><a class='startLink' href='" . $path . $file . "'>" . $file . "</a></p>";
                              }
                          }
                          closedir($handle);
