@@ -17,7 +17,7 @@
                 <a class="top_nav" href="formal_language/">Formal</a><a class="top_nav" href="logic/">Logic</a><a class="top_nav" href="lambda/">Lambda</a><a class="top_nav" href="types/">Types</a>
             </div>
 			<div id="cardHolder">
-<img src="cat2.gif" />            
+<center><img src="cat2.gif" /><img src="cat2.gif" /><img src="cat2.gif" /></center>
 </div>
 			<div id="bottom">
 				<br> Thanks for checking out my mafff and pergrehming sight.
