@@ -1,5 +1,6 @@
 <html>
 	<head>
+<title>Formal Languages</title>
 		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
@@ -32,7 +33,7 @@
                 }
                 echo "<div id='one'>";
                 echo "<h3>Formal Languages</h3>";
-                $path = "formal_language/";
+                $path = ".";
                     if ($handle = opendir($path)) {
                         while (false !== ($file = readdir($handle))) {
                             if ('.' === $file) continue;
