@@ -6,7 +6,7 @@
 	<body>
 		<div id="container">
 			<div id="top">
-                <img style="float:right;padding-right:20px;width:300px;" src="cat.gif" />
+                <img style="float:right;padding-right:20px;width:500px;" src="cat.gif" />
                 <div id="title">
 					<h1>Types and Programming Languages</h1>
                 </div>
