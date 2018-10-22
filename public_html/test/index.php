@@ -13,8 +13,7 @@
         <script>
             var ipbox = document.getElementById('pinput');
             ipbox.onkeyup = function(){
-                document.getElementById('text').innerHTML = ipbox.value;
-            katex.render("f(a,b,c) = (a^2+b^2+c^2)^3", text);
+                katex.render(ipbox.value, text);
             }
         </script>
     </body>
