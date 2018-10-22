@@ -2,7 +2,7 @@
     <head>
         <title>Testing an auto parser for creating webpage notes</title>
         <link rel="stylesheet" href="katex.min.css">
-        <script src="smrender.js">
+        <script src="katex.js">
         </script>
     </head>
     <body>
