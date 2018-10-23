@@ -13,7 +13,12 @@
         <script>
             var ipbox = document.getElementById('pinput');
             ipbox.onkeyup = function(){
-                katex.render(ipbox.value, text);
+                try{
+                    katex.render(ipbox.value, text);
+                }
+                catch(err){
+
+                }
             }
             function myFunction(){
                 document.getElementById('demo').innerHTML = document.getElementById('text').innerHTML;
