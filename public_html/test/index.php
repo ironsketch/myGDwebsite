@@ -14,6 +14,7 @@
             var ipbox = document.getElementById('pinput');
             ipbox.onkeyup = function(){
                 try{
+                    var katexHTML = katex.renderToString(ipbox,{});
                     katex.render(ipbox.value, text);
                 }
                 catch(err){
@@ -28,7 +29,7 @@
         </div>
         <button onclick="myFunction()">Click me</button>
         <?php
-            $thisLink = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+            $thisLink = (isset($_SERVER['HTTPS']) && $_SERVE;
             $html = file_get_html($thisLink);
             echo $thisLink;
             $ret = $html->find('div[id=text]');
