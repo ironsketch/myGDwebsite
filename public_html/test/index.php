@@ -21,11 +21,14 @@
                 }
             }
             function myFunction(){
-                document.getElementById('demo').innerHTML = document.getElementById('text').innerHTML;
+                var textHTML = document.getElementById('text').innerHTML;
             }
         </script>
         <div id="demo">
         </div>
         <button onclick="myFunction()">Click me</button>
+        <?php
+            echo"document.writeln(textHTML);";
+        ?>
     </body>
 </html>
