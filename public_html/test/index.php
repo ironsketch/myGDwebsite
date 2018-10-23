@@ -16,16 +16,13 @@
                 try{
                     katex.render(ipbox.value, text);
                     var html = katex.renderToString(ipbox, {throwOnError: false});
+                    document.getElementById("demo").value = html;
                 }
                     catch(err){
                 }
             }
-            function myFunction(){
-                document.getElementById("demo").value = html;
-            }
         </script>
         <div id="demo">
         </div>
-        <button onclick="myFunction()">Click me</button>
     </body>
 </html>
