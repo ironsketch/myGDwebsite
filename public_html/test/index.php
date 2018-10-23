@@ -14,7 +14,7 @@
             var ipbox = document.getElementById('pinput');
             ipbox.onkeyup = function(){
                 try{
-                    var katexHTML = katex.renderToString(ipbox,{});
+                    //var katexHTML = katex.renderToString(ipbox,{});
                     katex.render(ipbox.value, text);
                 }
                 catch(err){
