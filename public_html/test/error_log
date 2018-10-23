@@ -1,0 +1,20 @@
+[23-Oct-2018 16:55:53 UTC] PHP Notice:  Undefined variable: html in /home/x5orowb5nk8e/public_html/test/index.php on line 32
+[23-Oct-2018 16:55:53 UTC] PHP Warning:  DOMDocument::loadHTML(): Empty string supplied as input in /home/x5orowb5nk8e/public_html/test/index.php on line 32
+[23-Oct-2018 17:03:02 UTC] PHP Notice:  Undefined variable: html in /home/x5orowb5nk8e/public_html/test/index.php on line 32
+[23-Oct-2018 17:03:02 UTC] PHP Warning:  DOMDocument::loadHTML(): Empty string supplied as input in /home/x5orowb5nk8e/public_html/test/index.php on line 32
+[23-Oct-2018 18:46:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function file_get_html() in /home/x5orowb5nk8e/public_html/test/index.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/x5orowb5nk8e/public_html/test/index.php on line 32
+[23-Oct-2018 18:52:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function file_get_html() in /home/x5orowb5nk8e/public_html/test/index.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/x5orowb5nk8e/public_html/test/index.php on line 32
+[23-Oct-2018 18:53:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function file_get_html() in /home/x5orowb5nk8e/public_html/test/index.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/x5orowb5nk8e/public_html/test/index.php on line 32
+[23-Oct-2018 20:55:21 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/x5orowb5nk8e/public_html/test/index.php on line 32
+[23-Oct-2018 20:55:26 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/x5orowb5nk8e/public_html/test/index.php on line 32
+[23-Oct-2018 20:59:58 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/x5orowb5nk8e/public_html/test/index.php on line 32
+[23-Oct-2018 21:00:09 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/x5orowb5nk8e/public_html/test/index.php on line 32
