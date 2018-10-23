@@ -14,10 +14,9 @@
             var ipbox = document.getElementById('pinput');
                 function butts(){
                 try{
-                    alert('butts');
+                    document.getElementById("demo").innerHTML = html;
                     katex.render(ipbox.value, text);
                     var html = katex.renderToString(ipbox, {throwOnError: false});
-                    document.getElementById("demo").innerHTML = html;
                 }
                     catch(err){
                     }
