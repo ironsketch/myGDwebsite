@@ -20,6 +20,9 @@
                     catch(err){
                 }
             }
+            function myFunction(){
+                document.getElementById("demo").value = html;
+            }
         </script>
         <div id="demo">
         </div>
