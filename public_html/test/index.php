@@ -9,10 +9,9 @@
         <h1>My test page</h1>
         <div id="text">
         </div>
-        <input type='text' id='pinput'>
+        <input type='text' id='pinput' onkeyup="butts()">
         <script>
             var ipbox = document.getElementById('pinput');
-            ipbox.onkeyup = butts();
                 function butts(){
                 try{
                     katex.render(ipbox.value, text);
