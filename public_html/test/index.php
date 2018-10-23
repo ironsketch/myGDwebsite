@@ -16,7 +16,7 @@
                 try{
                     katex.render(ipbox.value, text);
                     var html = katex.renderToString(ipbox, {throwOnError: false});
-                    document.getElementById("demo").value = html;
+                    document.getElementById("demo").outerHTML = html;
                 }
                     catch(err){
                 }
