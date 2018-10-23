@@ -14,13 +14,13 @@
             var ipbox = document.getElementById('pinput');
                 function butts(){
                 try{
+                    alert('butts');
                     katex.render(ipbox.value, text);
                     var html = katex.renderToString(ipbox, {throwOnError: false});
-                    alert('butts');
                     document.getElementById("demo").innerHTML = html;
                 }
                     catch(err){
-                }
+                    }
             }
         </script>
         <div id="demo">
