@@ -12,7 +12,8 @@
         <input type='text' id='pinput'>
         <script>
             var ipbox = document.getElementById('pinput');
-            ipbox.onkeyup = function(){
+            ipbox.onkeyup = butts();
+                function butts(){
                 try{
                     katex.render(ipbox.value, text);
                     var html = katex.renderToString(ipbox, {throwOnError: false});
