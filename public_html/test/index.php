@@ -15,6 +15,7 @@
             ipbox.onkeyup = function(){
                 try{
                     katex.render(ipbox.value, text);
+                    var html = katex.renderToString(ipbox.value, {throwOnError: false});
                 }
                     catch(err){
                 }
