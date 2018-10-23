@@ -19,6 +19,7 @@
 
                 });
                     //var html = katex.renderToString(ipbox, {});
+                    alert(html);
                     document.getElementById("demo").outerHTML = html;
                     katex.render(ipbox.value, text);
                 }
