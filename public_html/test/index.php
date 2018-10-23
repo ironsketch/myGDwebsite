@@ -15,14 +15,12 @@
             ipbox.onkeyup = function(){
                 katex.render(ipbox.value, text);
             }
-        </script>
-        <div id="demo">
-        </div>
-        <button onclick="myFunction()">Click me</button>
-        <script>
             myFunction(){
                 getElementById('demo').innerHTML = document.documentElement;
             }
         </script>
+        <div id="demo">
+        </div>
+        <button onclick="myFunction()">Click me</button>
     </body>
 </html>
