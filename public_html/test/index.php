@@ -16,5 +16,13 @@
                 katex.render(ipbox.value, text);
             }
         </script>
+        <div id="demo">
+        </div>
+        <button onclick="myFunction()">Click me</button>
+        <script>
+            myFunction(){
+                getElementById('demo').innerHTML = document.documentElement;
+            }
+        </script>
     </body>
 </html>
