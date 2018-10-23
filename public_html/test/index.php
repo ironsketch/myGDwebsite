@@ -28,7 +28,7 @@
         </div>
         <button onclick="myFunction()">Click me</button>
         <?php
-            echo"document.writeln(textHTML);";
+            echo"<script>document.writeln(textHTML);</script>";
         ?>
     </body>
 </html>
