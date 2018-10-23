@@ -16,7 +16,7 @@
                 katex.render(ipbox.value, text);
             }
             function myFunction(){
-                document.getElementById('demo').innerHTML = document.documentElement;
+                document.getElementById('demo').innerHTML = document.documentElement.innerHTML;
             }
         </script>
         <div id="demo">
