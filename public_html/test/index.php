@@ -28,11 +28,15 @@
         </div>
         <button onclick="myFunction()">Click me</button>
         <?php
+            $thisLink = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+            $html = file_get_html($thisLink);
+            $ret = $html->find('div[id=text]');
+            echo $ret;
             $dom = new DOMDocument();
             $dom->loadHTML($html);
             $xpath = new DOMXPath($dom);
             $divContent = $xpath->query('//div[id="text"]');
-            var_dump($divContent);
+            
         ?>
     </body>
 </html>
