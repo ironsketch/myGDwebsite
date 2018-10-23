@@ -28,7 +28,11 @@
         </div>
         <button onclick="myFunction()">Click me</button>
         <?php
-            echo"<script>document.writeln(textHTML);</script>";
+            $dom = new DOMDocument();
+            $dom->loadHTML($html);
+            $xpath = new DOMXPath($dom);
+            $divContent = $xpath->query('//div[id="text"]');
+            var_dump($divContent);
         ?>
     </body>
 </html>
