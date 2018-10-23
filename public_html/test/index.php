@@ -14,6 +14,10 @@
             var ipbox = document.getElementById('pinput');
                 function butts(){
                 try{
+                    var html = katex.renderToString("c = \\pm\\sqrt{a^2 + b^2}", {
+                        throwOnError: false
+
+                });
                     //var html = katex.renderToString(ipbox, {});
                     //document.getElementById("demo").innerHTML = html;
                     katex.render(ipbox.value, text);
