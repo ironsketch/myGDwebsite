@@ -14,7 +14,7 @@
             var ipbox = document.getElementById('pinput');
                 function butts(){
                 try{
-                    var html = katex.renderToString(ipbox, {throwOnError: false});
+                    var html = katex.renderToString(ipbox, {});
                     document.getElementById("demo").innerHTML = html;
                     katex.render(ipbox.value, text);
                 }
