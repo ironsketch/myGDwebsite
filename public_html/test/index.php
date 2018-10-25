@@ -27,7 +27,6 @@
             }
         </script>
         <?php
-            function boobs(){
                 $divs = $dom->getElementsByTagName('div');
                 foreach ($divs as $div) {
                     foreach ($div->attributes as $attr) {
@@ -36,6 +35,7 @@
                         echo "Attribute '$name' :: '$value'<br />";
                     }
                 }
+            function boobs(){
                 $title = "the date";
                 $body = "BUTTTTTTTTTTTTTTTTTs";
                 //$myfile = fopen("butt/test.php","w");
