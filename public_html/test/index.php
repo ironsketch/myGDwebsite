@@ -28,7 +28,7 @@
         </script>
         <?php
             function boobs(){
-                $divs = $dom->getElementsByTagName('div');
+                //$divs = $dom->getElementsByTagName('div');
                 $title = "the date";
                 $body = "BUTTTTTTTTTTTTTTTTTs";
                 $myfile = fopen("butt/imaphppage.php", "w") or die ("unable to OPEN MOTHER FUCKER!");
