@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
     <head>
         <title>Testing an auto parser for creating webpage notes</title>
         <link rel="stylesheet" href="katex.min.css">
@@ -32,7 +32,7 @@
             $title = "the date";
             $body = "BUTTTTTTTTTTTTTTTTTs";
             $myfile = fopen("butt/imaphppage.php", "w") or die ("unable to OPEN MOTHER FUCKER!");
-            $header = "<html><head><title>$title</title></head>\n<body>$body</body></html>";
+            $header = "<!DOCTYPE html><head><title>$title</title></head>\n<body>$body</body></html>";
             fwrite($myfile,$header);
             fclose($myfile);
         ?>
