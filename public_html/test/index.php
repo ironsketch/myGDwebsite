@@ -8,6 +8,7 @@
     <body>
         <h1>My test page</h1>
         <div id="textArea">
+            PPOOOOOOOOPPPPPPPPPPPPPPPPPPP
         </div>
         <input type='text' id='pinput' onkeyup="butts()">
         <script>
