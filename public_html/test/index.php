@@ -31,9 +31,10 @@
                 //$divs = $dom->getElementsByTagName('div');
                 $title = "the date";
                 $body = "BUTTTTTTTTTTTTTTTTTs";
-                $myfile = fopen("butt/imaphppage.php", "w") or die ("unable to OPEN MOTHER FUCKER!");
-                $header = "<!DOCTYPE html><head><title>$title</title></head>\n<body>$body</body></html>";
-                fwrite($myfile,$header);
+                $myfile = fopen("test.txt","w");
+                //$myfile = fopen("butt/imaphppage.php", "w") or die ("unable to OPEN MOTHER FUCKER!");
+                //$header = "<!DOCTYPE html><head><title>$title</title></head>\n<body>$body</body></html>";
+                fwrite($myfile,"meow");
                 fclose($myfile);
             }
             if (isset($_GET['hello'])) {
