@@ -18,3 +18,13 @@ Stack trace:
 [23-Oct-2018 20:55:26 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/x5orowb5nk8e/public_html/test/index.php on line 32
 [23-Oct-2018 20:59:58 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/x5orowb5nk8e/public_html/test/index.php on line 32
 [23-Oct-2018 21:00:09 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/x5orowb5nk8e/public_html/test/index.php on line 32
+[25-Oct-2018 15:53:59 UTC] PHP Notice:  Undefined variable: dom in /home/x5orowb5nk8e/public_html/test/index.php on line 31
+[25-Oct-2018 15:53:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getElementsByTagName() on null in /home/x5orowb5nk8e/public_html/test/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/x5orowb5nk8e/public_html/test/index.php on line 31
+[25-Oct-2018 15:54:31 UTC] PHP Notice:  Undefined variable: dom in /home/x5orowb5nk8e/public_html/test/index.php on line 30
+[25-Oct-2018 15:54:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getElementsByTagName() on null in /home/x5orowb5nk8e/public_html/test/index.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/x5orowb5nk8e/public_html/test/index.php on line 30
