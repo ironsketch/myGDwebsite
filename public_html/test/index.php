@@ -10,6 +10,7 @@
         <div id="textArea">
             PPOOOOOOOOPPPPPPPPPPPPPPPPPPP
             <h3>butts</h3>
+            <br> 1
         </div>
         <input type='text' id='pinput' onkeyup="butts()">
         <script>
