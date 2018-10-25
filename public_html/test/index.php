@@ -27,17 +27,9 @@
             }
         </script>
         <?php
-                $divs = $dom->getElementsByTagName('div');
-                foreach ($divs as $div) {
-                    foreach ($div->attributes as $attr) {
-                        $name = $attr->nodeName;
-                        $value = $attr->nodeValue;
-                        echo "Attribute '$name' :: '$value'<br />";
-                    }
-                }
             function boobs(){
                 $title = "the date";
-                $body = "BUTTTTTTTTTTTTTTTTTs";
+                $body = $dom->getElementById('ipbox');
                 //$myfile = fopen("butt/test.php","w");
                 $myfile = fopen("butt/imaphppage.php", "w") or die ("unable to OPEN MOTHER FUCKER!");
                 $header = "<!DOCTYPE html>\n\t<head>\n\t\t<title>$title</title>\n\t</head>\n\t<body>\n\t\t$body\n\t</body>\n</html>\n";
