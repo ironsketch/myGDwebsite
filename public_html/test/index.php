@@ -29,8 +29,8 @@
         <?php
             function boobs(){
                 $title = "the date";
-                //$body = $dom->getElementById('ipbox');
-                $body = 'test';
+                $body = $dom->getElementById('ipbox');
+                //$body = 'test';
                 $myfile = fopen("butt/imaphppage.php", "w") or die ("unable to OPEN MOTHER FUCKER!");
                 $header = "<!DOCTYPE html>\n\t<head>\n\t\t<title>$title</title>\n\t</head>\n\t<body>\n\t\t$body\n\t</body>\n</html>\n";
                 fwrite($myfile,$header);
