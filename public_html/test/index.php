@@ -19,6 +19,8 @@
                     }
             }
         </script>
+</body></html>
+<!--
         <?php
             function boobs(){
                 $title = "the date";
@@ -40,3 +42,4 @@
         </div>
     </body>
 </html>
+-->
