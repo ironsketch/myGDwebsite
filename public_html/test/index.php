@@ -27,6 +27,7 @@
             function boobs(){
                 $title = "the date";
                 $dom = new domDocument;
+                $dom->loadHTML("index.php");
                 $dom->validate();
                 $body = $dom->getElementById('textArea');
                 $myfile = fopen("butt/imaphppage.php", "w") or die ("unable to OPEN MOTHER FUCKER!");
