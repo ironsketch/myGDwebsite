@@ -11,9 +11,9 @@
         </div>
         <input type='text' id='pinput'>
         <script>
-            var ipbox = document.getElementById('pinput');
             function butts(){
                 try{
+                    var ipbox = document.getElementById('pinput');
                     katex.render(ipbox.value, textArea);
                 }
                     catch(err){
