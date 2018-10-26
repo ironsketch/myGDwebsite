@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html>
     <head>
         <title>Testing an auto parser for creating webpage notes</title>
         <link rel="stylesheet" href="katex.min.css">
