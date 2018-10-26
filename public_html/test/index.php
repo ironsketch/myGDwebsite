@@ -24,9 +24,9 @@
         </script>
 
         <?php
+            $dom = new domDocument;
             function boobs(){
                 $title = "the date";
-                $dom = new domDocument;
                 $dom->loadHTML("index.php");
                 $dom->validate();
                 $body = $dom->getElementById('textArea');
