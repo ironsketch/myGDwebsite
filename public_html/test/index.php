@@ -9,7 +9,9 @@
         <h1>My test page</h1>
         <div id="textArea">
         </div>
-        <input type='text' id='pinput'>
+
+        <input type='text' id='pinput' onkeyup="butts()">
+
         <script>
             function butts(){
                 try{
@@ -20,6 +22,7 @@
                     }
             }
         </script>
+
 </body></html>
 <!--
         <?php
