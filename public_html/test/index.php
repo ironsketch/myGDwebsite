@@ -21,8 +21,6 @@
                     var d = new Date();
                     d.setTime(d.getTime() + (31*24*60*60*1000));
                     var expires = "expires="+ d.toUTCString();
-                    document.cookie = "butt=boob";
-                    alert(document.cookie);
                     document.cookie = "katex=" + ipbox + "," + expires + "," + "path=/";
                 }
                     catch(err){
