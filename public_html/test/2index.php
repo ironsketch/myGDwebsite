@@ -11,8 +11,8 @@
         </div>
         <?php
             function boobs(){            
-                $dom = new domDocument;
-                $textArea = $dom.getElementById('textArea');
+                //$dom = new domDocument;
+                $textArea = document.getElementById('textArea');
                 if(!textArea){
                     die("nope");
                 }
