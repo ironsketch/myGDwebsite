@@ -10,10 +10,15 @@
         </div>
         </div>
         <?php
-            $dom = new domDocument;
-            $dom->loadHTML($html);
-            $textArea = $dom->getElementById('textArea');
-            echo $textarea
+            function boobs(){            
+                $dom = new domDocument;
+                $dom->loadHTML($html);
+                $textArea = $dom->getElementById('textArea');
+                echo $textarea
+            }
+            if (isset($_GET['hello'])) {
+                boobs();
+            }
         ?>
         <div id="demo">
             <a href='index.php?hello=true'>Run PHP Function</a>
