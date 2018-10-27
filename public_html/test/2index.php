@@ -14,7 +14,7 @@
                 $dom = new domDocument;
                 $dom->loadHTML($html);
                 $textArea = $dom->getElementById('textArea');
-                echo "<script type='text/javascript'>alert('$textArea->nodeValue');</script>";
+                echo "<script type='text/javascript'>alert('$dom->saveHTML($textArea div)');</script>";
             }
             if (isset($_GET['hello'])) {
                 boobs();
