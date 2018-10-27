@@ -11,7 +11,7 @@
         </div>
         <?php
             function boobs(){            
-                //$dom = new domDocument;
+                $dom = new domDocument;
                 //$dom->loadHTML($html);
                 //$textArea = $dom->getElementById('textArea');
                 //echo $textarea
