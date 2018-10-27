@@ -4,19 +4,14 @@
     </head>
     <body>
         <div id="textArea">
-            word top 2
+            word top 3
         <div id="t">
             word inner <a href="google.com">link</a>
         </div>
         </div>
         <?php
             function boobs(){            
-                //$dom = new domDocument;
-                $textArea = document.getElementById('textArea');
-                if(!textArea){
-                    die("nope");
-                }
-                //echo "<script type='text/javascript'>alert('ff');</script>";
+                echo document.getElementById('textArea');
             }
             if (isset($_GET['hello'])) {
                 boobs();
