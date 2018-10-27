@@ -4,20 +4,18 @@
     </head>
     <body>
         <div id="textArea">
-            word top 4
+            word top 5
         <div id="t">
             word inner <a href="google.com">link</a>
         </div>
         </div>
         <?php
             $dochtml = new DOMDocument();
-            $dochtml.loadHTML($strhtml);
+            $dochtml->loadHTML($strhtml);
             function boobs(){            
-                $elm = $dochtml.getElementById('textArea');
-                $tag = $elm.tagName;
-                $cnt = $elm.nodeValue;
-                
-                echo $tag. ' - '. $cnt;
+                if(is_null($dochtml->getElementById('textArea'))){
+                    echo "<script>alert('im null');</script>"
+                }
             }
             if (isset($_GET['hello'])) {
                 boobs();
