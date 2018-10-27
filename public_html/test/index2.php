@@ -13,7 +13,9 @@
         <input type='text' id='pinput' onkeyup="butts()">
 
         <script>
-            document.cookie = "katex=meow;" + "path=/";
+            var d = new Date();
+            d.setTime(d.getTime()+days*24*60*60*1000);            
+            document.cookie = "katex=meow;" + "expires=" + d + ";" + "path=/";
             alert(document.cookie);
         </script>
     </body>
