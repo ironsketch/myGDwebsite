@@ -13,7 +13,7 @@
         <input type='text' id='pinput' onkeyup="butts()">
 
         <script>
-            document.cookie = "katex=meow";
+            document.cookie = "katex=meow;" + "path=/";
             alert(document.cookie);
         </script>
     </body>
