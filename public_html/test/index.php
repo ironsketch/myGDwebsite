@@ -21,7 +21,7 @@
                     d.setTime(d.getTime() + (exdays*24*60*60*1000));
                     var expires = "expires="+ d.toUTCString();
                     cipbox = "cipbox="+ipbox;
-                    document.cookie = "cname=katex" + ";" + cipbox + ";" + expires + ";";
+                    document.cookie = "katex=" + cipbox + ";" + expires + ";";
                 }
                     catch(err){
                     }
