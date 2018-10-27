@@ -27,8 +27,7 @@
             $dom = new domDocument;
             function boobs(){
                 $title = "the date";
-                $dom->loadHTML("index.php");
-                $dom->validate();
+                $dom->loadHTML($buffer);
                 $body = $dom->getElementById('textArea');
                 $myfile = fopen("butt/imaphppage.php", "w") or die ("unable to OPEN MOTHER FUCKER!");
                 $header = "<!DOCTYPE html>\n\t<head>\n\t\t<title>$title</title>\n\t</head>\n\t<body>\n\t\t$body\n\t</body>\n</html>\n";
