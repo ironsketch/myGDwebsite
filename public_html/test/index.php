@@ -22,7 +22,7 @@
                     var expires = "expires="+ d.toUTCString();
                     document.cookie = "butt=boob";
                     alert(document.cookie);
-                    document.cookie = "katex=" + ipbox + ";" + expires + ";";
+                    document.cookie = "katex=" + ipbox + "," + expires + "," + "path=/";
                 }
                     catch(err){
                     }
