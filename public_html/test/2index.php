@@ -14,7 +14,7 @@
                 $dom = new domDocument;
                 $dom->loadHTML($html);
                 $textArea = $dom->getElementById('textArea');
-                echo "<script type='text/javascript'>alert('$dom->saveHTML($textArea)');</script>";
+                echo "<script type='text/javascript'>alert('$dom->saveHTML()');</script>";
             }
             if (isset($_GET['hello'])) {
                 boobs();
