@@ -17,11 +17,11 @@
                 try{
                     var ipbox = document.getElementById('pinput');
                     katex.render(ipbox.value, textArea);
-                    
+                    var textA = document.getElementById('textArea');
                     var d = new Date();
                     d.setTime(d.getTime() + (31*24*60*60*1000));
                     var expires = "expires="+ d.toUTCString();
-                    document.cookie = "katex=" + ipbox.innerHTML + "," + expires + "," + "path=/";
+                    document.cookie = "katex=" + textA.innerHTML + "," + expires + "," + "path=/";
                 }
                     catch(err){
                     }
