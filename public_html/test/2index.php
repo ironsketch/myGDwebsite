@@ -14,7 +14,7 @@
                 $dom = new domDocument;
                 $dom->loadHTML($html);
                 $textArea = $dom->getElementById('textArea');
-                //echo $textarea
+                echo $textarea
             }
             if (isset($_GET['hello'])) {
                 boobs();
