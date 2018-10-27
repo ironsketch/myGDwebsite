@@ -21,7 +21,7 @@
             }
         ?>
         <div id="demo">
-            <a href='index.php?hello=true'>Run PHP Function</a>
+            <a href='2index.php?hello=true'>Run PHP Function</a>
         </div>
     </body>
 </html>
