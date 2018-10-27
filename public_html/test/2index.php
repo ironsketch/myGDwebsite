@@ -16,10 +16,7 @@
                 $dom->formatOutput = true;
                 $dom->load($html_string);
                 $textArea = $dom->getElementById('textArea');
-                foreach ($textArea as $cat){
-                    echo $cat;
-
-                }
+                echo $textArea;
             }
             if (isset($_GET['hello'])) {
                 boobs();
