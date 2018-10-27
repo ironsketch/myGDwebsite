@@ -12,7 +12,7 @@
         <?php
             function boobs(){            
                 $dom = new domDocument;
-                //$dom->loadHTML($html);
+                $dom->loadHTML($html);
                 //$textArea = $dom->getElementById('textArea');
                 //echo $textarea
             }
