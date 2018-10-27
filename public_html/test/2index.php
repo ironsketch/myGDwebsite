@@ -14,7 +14,7 @@
                 $dom = new domDocument;
                 $dom->loadHTML($html);
                 $textArea = $dom->getElementById('textArea');
-                echo $textArea div->C14N();
+                echo $dom->saveHTML($textArea);
             }
             if (isset($_GET['hello'])) {
                 boobs();
