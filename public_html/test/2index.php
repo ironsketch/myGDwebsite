@@ -11,11 +11,11 @@
         </div>
         <?php
             $dochtml = new DOMDocument();
-            $dochtml->loadHTML($strhtml);
+            $dochtml.loadHTML($strhtml);
             function boobs(){            
-                $elm = $dochtml->getElementById('textArea');
-                $tag = $elm->tagName;
-                $cnt = $elm->nodeValue;
+                $elm = $dochtml.getElementById('textArea');
+                $tag = $elm.tagName;
+                $cnt = $elm.nodeValue;
                 
                 echo $tag. ' - '. $cnt;
             }
