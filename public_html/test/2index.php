@@ -16,7 +16,7 @@
                 if(!textArea){
                     die("nope");
                 }
-                echo "<script type='text/javascript'>alert('$textArea');</script>";
+                echo "<script type='text/javascript'>alert('ff');</script>";
             }
             if (isset($_GET['hello'])) {
                 boobs();
