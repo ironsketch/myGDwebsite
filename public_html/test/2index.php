@@ -15,7 +15,7 @@
                 $dom = new domDocument;
                 $dom->loadHTML($html);
                 $dom->getElementById('textArea');
-                echo $dom->saveXML();
+                echo $dom->saveHTML();
             }
             if (isset($_GET['hello'])) {
                 boobs();
