@@ -12,11 +12,9 @@
         <?php
             function boobs(){            
                 $dom = new domDocument;
-                $dom->preserveWhiteSpace = false;
-                $dom->formatOutput = true;
-                $dom->load($html_string);
+                $dom->loadHTML($html);
                 $textArea = $dom->getElementById('textArea');
-                echo $textArea;
+                echo $textarea;
             }
             if (isset($_GET['hello'])) {
                 boobs();
