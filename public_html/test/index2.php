@@ -13,11 +13,8 @@
         <input type='text' id='pinput' onkeyup="butts()">
 
         <script>
-                var d = new Date();
-                d.setTime(d.getTime() + (exdays*24*60*60*1000));
-                var expires = "expires="+ d.toUTCString();
-                document.cookie = "katex=" + ipbox + "," + expires + "," + "path=/";
-                alert(document.cookie);
+            document.cookie = "katex=meow";
+            alert(document.cookie);
         </script>
     </body>
 </html>
