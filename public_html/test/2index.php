@@ -4,7 +4,7 @@
     </head>
     <body>
         <div id="textArea">
-            word top
+            word top 1
         <div id="t">
             word inner <a href="google.com">link</a>
         </div>
@@ -12,8 +12,10 @@
         <?php
             function boobs(){            
                 $dom = new domDocument;
-                //$dom->loadHTML($html);
                 $textArea = $dom->getElementById('textArea');
+                if(!textArea){
+                    die("nope");
+                }
                 echo "<script type='text/javascript'>alert('$dom->saveHTML()');</script>";
             }
             if (isset($_GET['hello'])) {
