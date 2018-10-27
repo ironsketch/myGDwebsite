@@ -17,6 +17,11 @@
                 try{
                     var ipbox = document.getElementById('pinput');
                     katex.render(ipbox.value, textArea);
+                    var d = new Date();
+                    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+                    var expires = "expires="+ d.toUTCString();
+                    cipbox = "cipbox="+ipbox;
+                    document.cookie "cname=katex" + ";" + cipbox + ";" + expires + ";";
                 }
                     catch(err){
                     }
@@ -27,8 +32,13 @@
             $dom = new domDocument;
             function boobs(){
                 $title = "the date";
-                $dom->loadHTML($buffer);
-                $body = $dom->getElementById('textArea');
+                if(!isset($_COOKIE["katex"])) {
+                echo "Cookie named katex is not set!";
+                } else {
+                    echo "Cookie katex is set!<br>";
+                    echo "Value is: " . $_COOKIE["katex"];
+
+                }
                 $myfile = fopen("butt/imaphppage.php", "w") or die ("unable to OPEN MOTHER FUCKER!");
                 $header = "<!DOCTYPE html>\n\t<head>\n\t\t<title>$title</title>\n\t</head>\n\t<body>\n\t\t$body\n\t</body>\n</html>\n";
                 fwrite($myfile,$header);
