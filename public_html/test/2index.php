@@ -12,6 +12,7 @@
         <?php
             $dom = new domDocument;
             $dom->loadHTML($html);
+            $textArea = $dom->getElementById('textArea');
         ?>
         <div id="demo">
             <a href='index.php?hello=true'>Run PHP Function</a>
