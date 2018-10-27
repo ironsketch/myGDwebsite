@@ -4,9 +4,14 @@
     </head>
     <body>
         <div id="textArea">
+            word top
+        <div id="t">
+            word inner <a href="google.com">link</a>
+        </div>
         </div>
         <?php
             $dom = new domDocument;
+            $dom->loadHTML($html);
         ?>
         <div id="demo">
             <a href='index.php?hello=true'>Run PHP Function</a>
