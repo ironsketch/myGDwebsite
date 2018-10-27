@@ -18,10 +18,9 @@
                     var ipbox = document.getElementById('pinput');
                     katex.render(ipbox.value, textArea);
                     var d = new Date();
-                    alert('mew');
                     d.setTime(d.getTime() + (exdays*24*60*60*1000));
                     var expires = "expires="+ d.toUTCString();
-                    document.cookie = "katex=" + ipbox + ";" + expires + ";";
+                    document.cookie = "katex=" + ipbox + ";" + expires + ";" + ";path=/";
                 }
                     catch(err){
                     }
