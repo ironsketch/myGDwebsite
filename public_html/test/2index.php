@@ -12,9 +12,9 @@
         <?php
             function boobs(){
                 echo "<script></script>";
-                $dom = new domDocument('1.0', 'iso-8859-1');
-                echo $dom->loadHTML($html);
-                
+                $dom = new domDocument;
+                $dom->loadHTML($html);
+                echo $dom->saveHTML();
             }
             if (isset($_GET['hello'])) {
                 boobs();
