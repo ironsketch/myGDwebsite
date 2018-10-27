@@ -12,7 +12,7 @@
         <?php
             function boobs(){            
                 $dom = new domDocument;
-                $textArea = $dom->getElementById('textArea');
+                $textArea = $dom.getElementById('textArea');
                 if(!textArea){
                     die("nope");
                 }
