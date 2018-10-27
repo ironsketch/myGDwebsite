@@ -14,8 +14,8 @@
                 echo "<script></script>";
                 $dom = new domDocument;
                 $dom->loadHTML($html);
-                $dom->getElementById('textArea');
-                echo $dom->saveHTML();
+                //$dom->getElementById('textArea');
+                $cat = $html->find('div[id=textArea]');
             }
             if (isset($_GET['hello'])) {
                 boobs();
