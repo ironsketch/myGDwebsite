@@ -14,7 +14,7 @@
 
         <script>
             var d = new Date();
-            d.setTime(d.getTime()+days*24*60*60*1000);            
+            d.setTime(d.getTime()+36*24*60*60*1000);            
             document.cookie = "katex=meow;" + "expires=" + d + ";" + "path=/";
             alert(document.cookie);
         </script>
