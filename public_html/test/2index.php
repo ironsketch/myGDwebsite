@@ -11,10 +11,10 @@
         </div>
         <?php
             function boobs(){            
-                $dom = new domDocument;
-                $dom->loadHTML($html);
-                $textArea = $dom->getElementById('textArea');
-                echo $textarea
+                //$dom = new domDocument;
+                //$dom->loadHTML($html);
+                //$textArea = $dom->getElementById('textArea');
+                //echo $textarea
             }
             if (isset($_GET['hello'])) {
                 boobs();
