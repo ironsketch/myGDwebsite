@@ -11,10 +11,10 @@
         </div>
         <?php
             function boobs(){
-                echo "<script>alert('i got to boobs');</script>";
+                echo "<script></script>";
                 $dom = new domDocument('1.0', 'iso-8859-1');
                 $dom->loadHTML($html);
-                echo $html;
+                echo $dom;
             }
             if (isset($_GET['hello'])) {
                 boobs();
