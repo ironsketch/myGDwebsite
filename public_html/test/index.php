@@ -20,7 +20,8 @@
                     var d = new Date();
                     d.setTime(d.getTime() + (exdays*24*60*60*1000));
                     var expires = "expires="+ d.toUTCString();
-                    document.cookie = "katex=" + ipbox + ";" + expires + ";" + ";path=/";
+                    document.cookie = "butt=boob";
+                    document.cookie = "katex=" + ipbox + ";" + expires + ";";
                 }
                     catch(err){
                     }
@@ -31,7 +32,7 @@
             $dom = new domDocument;
             function boobs(){
                 $title = "the date";
-                if(!isset($_COOKIE["katex"])) {
+                if(!isset($_COOKIE["butt"])) {
                 echo "Cookie named katex is not set!";
                 } else {
                     echo "Cookie katex is set!<br>";
