@@ -13,8 +13,8 @@
             function boobs(){
                 echo "<script></script>";
                 $dom = new domDocument('1.0', 'iso-8859-1');
-                $dom->loadHTML($html);
-                echo $dom;
+                echo $dom->loadHTML($html);
+                
             }
             if (isset($_GET['hello'])) {
                 boobs();
