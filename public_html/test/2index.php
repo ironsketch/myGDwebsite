@@ -4,7 +4,7 @@
     </head>
     <body>
         <div id="textArea">
-            word top 3
+            word top 4
         <div id="t">
             word inner <a href="google.com">link</a>
         </div>
