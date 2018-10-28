@@ -16,15 +16,15 @@ function submit_form(){
     $.ajax({
         url: '3index.php',
         type: 'POST',
-        data: dataTosend,
+        data: {dataTosend},
         async: true,
     });
 }
 </script>
 
 <?php
-$user=$_POST['user'];
-echo $user;
+    $user=$_POST['user'];
+    echo $user;
 ?>
 
 </body>
