@@ -19,7 +19,6 @@ function submit_form(){
         data: dataTosend,
         async: true,
         success: function (data) {
-            alert(data)
         },
     });
 }
