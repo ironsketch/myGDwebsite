@@ -4,7 +4,7 @@
     </head>
     <body>
         <div id="textArea">
-            word top 8
+            word top 9
         <div id="t">
             word inner <a href="google.com">link</a>
         </div>
@@ -12,9 +12,7 @@
         <?php
             function boobs(){
                 $html = file_get_contents('http://artbergin.com/test/index.php');
-                print_r($html);
-                $keywords = preg_split("/<[^>]*[^\/]>/i", $html);
-                print_r($keywords);
+                echo "'" . $html . "'";
             }
             if (isset($_GET['hello'])) {
                 boobs();
