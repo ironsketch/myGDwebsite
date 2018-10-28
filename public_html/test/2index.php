@@ -12,7 +12,8 @@
         <?php
             function boobs(){
                 echo "<script>alert('i got to boobs');</script>";
-                $dom = new domDocument;
+                $dom = new domDocument('1.0', 'iso-8859-1');
+
             }
             if (isset($_GET['hello'])) {
                 boobs();
