@@ -3,6 +3,20 @@
         <title>Testing an auto parser for creating webpage notes</title>
         <link rel="stylesheet" href="katex.min.css">
         <script src="katex.js">
+            $(document).ready(function(){
+                $(document).on('click','.idname', function(){
+                    $.ajax({
+                        type: 'POST',
+                        url: 'index.php',
+                        data: {name:"test"},
+                        cache: false,
+                        success: function(data){
+                            $('#results').html(data);
+                        }
+                    })
+                    return false;
+                });
+            });
         </script>
     </head>
     <body>
@@ -39,6 +53,8 @@
         ?>
         <div id="demo">
             <a href='index.php?hello=true'>Run PHP Function</a>
+            <button type="button" id="idname">Trust me, I'm a button.</button>
         </div>
+        <?php echo  $_POST['name']; ?>
     </body>
 </html>
