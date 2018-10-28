@@ -4,14 +4,14 @@
     </head>
     <body>
         <div id="textArea">
-            word top 9
+            word top 1
         <div id="t">
             word inner <a href="google.com">link</a>
         </div>
         </div>
         <?php
             function boobs(){
-                $html = file_get_contents('http://artbergin.com/test/index.php');
+                $html = file_get_contents('http://artbergin.com/test/2index.php');
                 echo "'" . $html . "'";
             }
             if (isset($_GET['hello'])) {
