@@ -14,7 +14,7 @@
             $dochtml->loadHTML($strhtml);
             function boobs(){            
                 if(is_null($dochtml->getElementById('textArea'))){
-                    echo "<script>alert('im null');</script>"
+                    echo "<script>alert('im null');</script>";
                 }
             }
             if (isset($_GET['hello'])) {
