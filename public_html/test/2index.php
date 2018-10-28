@@ -11,11 +11,8 @@
         </div>
         <?php
             function boobs(){
-                echo "<script></script>";
-                //$dom = new domDocument;
-                //$dom->loadHTML($html);
                 $html = file_get_contents('http://artbergin.com/test/index.php');
-                echo $html;
+                $body = $html.getElementById('textArea');
             }
             if (isset($_GET['hello'])) {
                 boobs();
