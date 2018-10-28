@@ -4,7 +4,7 @@
     </head>
     <body>
         <div id="textArea">
-            word top 4
+            word top 5
         <div id="t">
             word inner <a href="google.com">link</a>
         </div>
@@ -12,7 +12,8 @@
         <?php
             function boobs(){
                 $html = file_get_contents('http://artbergin.com/test/index.php');
-                $body = $html.getElementById('textArea');
+                $body = $html->find('textArea')->innertext;
+                echo $body;
             }
             if (isset($_GET['hello'])) {
                 boobs();
