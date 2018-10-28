@@ -18,10 +18,6 @@
                     var ipbox = document.getElementById('pinput');
                     katex.render(ipbox.value, textArea);
                     var textA = document.getElementById('textArea');
-                    var d = new Date();
-                    d.setTime(d.getTime() + (31*24*60*60*1000));
-                    var expires = "expires="+ d.toUTCString();
-                    document.cookie = "katex=" + textA.innerHTML + "," + expires + "," + "path=/";
                 }
                     catch(err){
                     }
@@ -29,16 +25,9 @@
         </script>
 
         <?php
-            $dom = new domDocument;
             function boobs(){
+                $body = file_get_contents('http://artbergin.com/test/index.php');
                 $title = "the date";
-                if(!isset($_COOKIE["butt"])) {
-                echo "Cookie named katex is not set!";
-                } else {
-                    echo "Cookie katex is set!<br>";
-                    echo "Value is: " . $_COOKIE["katex"];
-
-                }
                 $myfile = fopen("butt/imaphppage.php", "w") or die ("unable to OPEN MOTHER FUCKER!");
                 $header = "<!DOCTYPE html>\n\t<head>\n\t\t<title>$title</title>\n\t</head>\n\t<body>\n\t\t$body\n\t</body>\n</html>\n";
                 fwrite($myfile,$header);
