@@ -4,14 +4,15 @@
     </head>
     <body>
         <div id="textArea">
-            word top 5
+            word top 6
         <div id="t">
             word inner <a href="google.com">link</a>
         </div>
         </div>
         <?php
-            function boobs(){            
+            function boobs(){
                 echo "<script>alert('i got to boobs');</script>";
+                $dom = new domDocument;
             }
             if (isset($_GET['hello'])) {
                 boobs();
