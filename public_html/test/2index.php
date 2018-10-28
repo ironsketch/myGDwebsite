@@ -14,8 +14,6 @@
                 echo "<script>alert('i got to boobs');</script>";
                 $dom = new domDocument('1.0', 'iso-8859-1');
                 $dom->loadHTML($html);
-                $ta = $dom->getElementById('textArea');
-                $html = $dom->saveHTML();
                 echo $html;
             }
             if (isset($_GET['hello'])) {
