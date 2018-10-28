@@ -15,6 +15,7 @@
                 //$dom = new domDocument;
                 //$dom->loadHTML($html);
                 $html = file_get_contents('http://artbergin.com/test/index.php');
+                echo $html;
             }
             if (isset($_GET['hello'])) {
                 boobs();
