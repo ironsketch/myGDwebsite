@@ -18,17 +18,14 @@ function submit_form(){
         type: 'POST',
         data: dataTosend,
         async: true,
-        success: function (data) {
-        },
     });
 }
 </script>
+
 <?php
-
 $user=$_POST['user'];
-
-
-echo "username=".$user;
+echo $user;
 ?>
+
 </body>
 </html>
