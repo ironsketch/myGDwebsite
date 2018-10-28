@@ -12,7 +12,7 @@
         <?php
             function boobs(){
                 $html = file_get_contents('http://artbergin.com/test/index.php');
-                $keywords = preg_split("/[\s]+/", $html);
+                $keywords = preg_split("/<[^>]*[^\/]>/i", $html);
                 print_r($keywords);
             }
             if (isset($_GET['hello'])) {
