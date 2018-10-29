@@ -1,5 +1,5 @@
 <?php
-    $user=$_POST['user'];
+    $user=$_POST['name'];
     echo $user;
 ?>
 <html><head>
