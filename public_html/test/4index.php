@@ -27,7 +27,9 @@
             <input type="submit" />
         </form> 
         <script>
-            katex.render("\\\lambda abc",textArea,{displayMode:false,});
+            katex.render("\\lambda abc\lambda",textArea,{displayMode:false,delimeters:[
+                  {left: "$", right: "$", display: false},
+            ]});
             function convert(){
                 try{
                     var input = document.getElementById('input');
