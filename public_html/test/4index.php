@@ -4,13 +4,14 @@
         <link rel="stylesheet" href="katex.min.css">
         <script src="katex.js"></script>
         <?php
-            $input=$_POST['input'];
+            $before=$_POST['input'];
             $location=$_POST['location'];
             $title=$_POST['title'];
             $date=$_POST['date'];
+            $input=$before.replace(/\\/g,"\\\\");
 
             $myFile = fopen("butt/".$date.".php", "w") or die ("Unable to open MF!");
-            $body='<!DOCTYPE html><head><title>'.$title.'</title><link rel="stylesheet" href="../katex.min.css"><script src="../katex.js"></script></head><body><div id="textArea"></div><script>try{katex.render(String.raw("'.$input.'"),textArea);} catch(err){}</script></body></html>';
+            $body='<!DOCTYPE html><head><title>'.$title.'</title><link rel="stylesheet" href="../katex.min.css"><script src="../katex.js"></script></head><body><div id="textArea"></div><script>try{katex.render("'.$input.'",textArea);} catch(err){}</script></body></html>';
             fwrite($myFile,$body);
             fclose($myFile);            
         ?>
