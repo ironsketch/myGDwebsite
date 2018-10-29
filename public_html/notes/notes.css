@@ -9,13 +9,17 @@ body{
 #textArea {
     float: right;
     width: 50%;
+    margin: 10px;
 }
 #formDiv {
     float: left;
     width: 50%;
 }
 #input {
-    width: 100%;
+    width: 95%;
     border: 0px;
     background-color: #003333;
+    color: #ffffff;
+    padding-bottom: 30px;
+    margin: 10px;
 }

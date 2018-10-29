@@ -24,10 +24,11 @@
         <div id="formDiv">
         <form action="<?php $_PHP_SELF ?>" method="post" id="form">
             <input type="text" id="input" name="input" onkeyup="convert()" />
-            <br />Location: <input type="text" name="location">
-            <br />Title: <input type="text" name="title">
-            <br />Date: <input type="text" name="date">
-            <input type="submit" />
+            <table style="border:0px">
+            <tr><td><br />Location: </td><td><input type="text" name="location"></td></tr>
+            <tr><td><br />Title: </td><td><input type="text" name="title"></td></tr>
+            <tr><td><br />Date: </td><td><input type="text" name="date"></td></tr></table>
+            <br /><input type="submit" />
         </form> 
         </div>
         <script>
