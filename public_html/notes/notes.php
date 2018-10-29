@@ -9,7 +9,8 @@
             $location=$_POST['location'];
             $title=$_POST['title'];
             $date=$_POST['date'];
-            $input=str_replace('\\',"\\\\",$before);
+            $input1=str_replace('\\',"\\\\",$before);
+            $input=str_replace('\n','',$input1);
 
             $myFile = fopen($location.$date.".php", "w") or die ("Unable to open MF!");
             $body='<!DOCTYPE html><head><title>'.$title.'</title><link rel="stylesheet" href="../katex.min.css"><script src="../katex.js"></script></head><body><div id="textArea"></div><script>try{katex.render("'.$input.'",textArea);} catch(err){}</script></body></html>';
