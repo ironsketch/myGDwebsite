@@ -10,10 +10,9 @@
             $date=$_POST['date'];
 
             $myFile = fopen("butt/".$date.".php", "w") or die ("Unable to open MF!");
-            $header="<!DOCTYPE html>\n\t<head>\n\t\t<title>$title</title><link rel="stylesheet" href="katex.min.css"><script src="katex.js"></script></head>";
-            $body="<body><div id="textArea"></div><script>
-try{katex.render(".$input.",textArea);} catch(err){}
-</script></body>";
+            $body='<!DOCTYPE html>\n\t<head>\n\t\t<title>'.$title.'</title><link rel="stylesheet" href="katex.min.css"><script src="katex.js"></script></head><body><div id="textArea"></div><script>try{katex.render('.$input.',textArea);} catch(err){}</script></body></html>';
+            fwrite($myFile,$body);
+            fclose($myFile);            
         ?>
     </head>
     <body>
