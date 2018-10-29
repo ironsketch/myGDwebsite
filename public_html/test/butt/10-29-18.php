@@ -1,0 +1,1 @@
+<!DOCTYPE html>\n\t<head>\n\t\t<title>This is the title</title><link rel="stylesheet" href="katex.min.css"><script src="katex.js"></script></head><body><div id="textArea"></div><script>try{katex.render(\lambda abc,textArea);} catch(err){}</script></body></html>
