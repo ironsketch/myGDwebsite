@@ -23,7 +23,7 @@
         </div> 
         <div id="formDiv">
         <form action="<?php $_PHP_SELF ?>" method="post" id="form">
-            <input type="text" rows="100" id="input" name="input" onkeyup="convert()" />
+            <textarea id="input" name="input" onkeyup="convert()" /></textarea>
             <table style="border:0px">
             <tr><td><br />Location: </td><td><input type="text" name="location"></td></tr>
             <tr><td><br />Title: </td><td><input type="text" name="title"></td></tr>
