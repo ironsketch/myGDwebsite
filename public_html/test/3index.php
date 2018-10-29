@@ -1,7 +1,6 @@
 <?php
     $user=$_POST['user'];
     echo $user;
-    exit();
 ?>
 <html><head>
 </head><body>
