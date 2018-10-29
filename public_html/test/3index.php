@@ -11,7 +11,7 @@
 
 <form action="<?php $_PHP_SELF ?>" method="post">
 <input type="text" placeholder="username" id="uname" />
-<button type="button" onclick="submit_form();">Submit</button>
+<input type="submit" />
 </form>
 
 <script>
