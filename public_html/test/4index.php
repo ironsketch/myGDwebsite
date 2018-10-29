@@ -1,9 +1,3 @@
-<?php
-    $user=$_POST['name'];
-    $katex=$_POST['katex'];
-    echo $user;
-    echo $katex;
-?>
 <!DOCTYPE html>
     <head>
         <title>Note writer</title>
