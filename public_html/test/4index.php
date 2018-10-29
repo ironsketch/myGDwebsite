@@ -21,6 +21,7 @@
         <script>
             function convert(){
                 try{
+                    alert('got to try');
                     var input = document.getElementById('input');
                     katex.render(input.value, finKatex);
                 } catch(err){
