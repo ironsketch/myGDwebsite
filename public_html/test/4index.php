@@ -30,6 +30,7 @@
             function convert(){
                 try{
                     var input = document.getElementById('input');
+                    katex.render("\lambda abc",textArea);
                     katex.render(input.value, textArea);
                 } catch(err){
 
