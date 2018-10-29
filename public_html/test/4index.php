@@ -10,7 +10,7 @@
             $date=$_POST['date'];
 
             $myFile = fopen("butt/".$date.".php", "w") or die ("Unable to open MF!");
-            $body='<!DOCTYPE html><head><title>'.$title.'</title><link rel="stylesheet" href="../katex.min.css"><script src="../katex.js"></script></head><body><div id="textArea"></div><script>try{katex.render("'.$input.'",textArea);} catch(err){}</script></body></html>';
+            $body='<!DOCTYPE html><head><title>'.$title.'</title><link rel="stylesheet" href="../katex.min.css"><script src="../katex.js"></script></head><body><div id="textArea"></div><script>try{katex.render(String.raw("'.$input.'"),textArea);} catch(err){}</script></body></html>';
             fwrite($myFile,$body);
             fclose($myFile);            
         ?>
@@ -27,9 +27,6 @@
             <input type="submit" />
         </form> 
         <script>
-            katex.render("\\lambda abc$\lambda$",textArea,{displayMode:false,delimeters:[
-                  {left: "$", right: "$", display: false},
-            ]});
             function convert(){
                 try{
                     var input = document.getElementById('input');
