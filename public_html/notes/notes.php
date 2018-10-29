@@ -1,6 +1,6 @@
 <!DOCTYPE html>
     <head>
-        <title>Note writer</title>
+        <title>Note Writer</title>
         <link rel="stylesheet" href="katex.min.css">
         <link rel="stylesheet" href="notes.css">
         <script src="katex.js"></script>
@@ -18,16 +18,18 @@
         ?>
     </head>
     <body>
-        <h1>Test h1</h1>
+        <h1>Note Writer</h1>
         <div id="textArea">
         </div> 
-        <form action="<?php $_PHP_SELF ?>" method="post">
+        <div id="formDiv">
+        <form action="<?php $_PHP_SELF ?>" method="post" id="form">
             <input type="text" id="input" name="input" onkeyup="convert()" />
             <br />Location: <input type="text" name="location">
             <br />Title: <input type="text" name="title">
             <br />Date: <input type="text" name="date">
             <input type="submit" />
         </form> 
+        </div>
         <script>
             function convert(){
                 try{
