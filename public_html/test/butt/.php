@@ -1,1 +1,0 @@
-<!DOCTYPE html><head><title></title><link rel="stylesheet" href="../katex.min.css"><script src="../katex.js"></script></head><body><div id="textArea"></div><script>try{katex.render("",textArea);} catch(err){}</script></body></html>

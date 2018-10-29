@@ -2,6 +2,7 @@
     <head>
         <title>Note writer</title>
         <link rel="stylesheet" href="katex.min.css">
+        <link rel="stylesheet" href="notes.css">
         <script src="katex.js"></script>
         <?php
             $before=$_POST['input'];
@@ -10,7 +11,7 @@
             $date=$_POST['date'];
             $input=str_replace('\\',"\\\\",$before);
 
-            $myFile = fopen("butt/".$date.".php", "w") or die ("Unable to open MF!");
+            $myFile = fopen($location.$date.".php", "w") or die ("Unable to open MF!");
             $body='<!DOCTYPE html><head><title>'.$title.'</title><link rel="stylesheet" href="../katex.min.css"><script src="../katex.js"></script></head><body><div id="textArea"></div><script>try{katex.render("'.$input.'",textArea);} catch(err){}</script></body></html>';
             fwrite($myFile,$body);
             fclose($myFile);            
