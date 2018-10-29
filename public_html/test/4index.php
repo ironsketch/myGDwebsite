@@ -9,6 +9,12 @@
         <title>Note writer</title>
         <link rel="stylesheet" href="katex.min.css">
         <script src="katex.js"></script>
+        <?php
+            $user=$_POST['name'];
+            $katex=$_POST['katex'];
+            echo $user."\n";
+            echo $katex;
+        ?>
     </head>
     <body>
         <h1>Test h1</h1>
