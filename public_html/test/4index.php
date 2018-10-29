@@ -5,16 +5,14 @@
         <script src="katex.js"></script>
         <?php
             $user=$_POST['name'];
-            $katex=$_POST['katex'];
             echo $user."\n";
-            echo $katex;
         ?>
     </head>
     <body>
         <h1>Test h1</h1>
-        
+        <div id="textArea">
+        </div> 
         <form action="<?php $_PHP_SELF ?>" method="post">
-            <input type="text" id="finKatex" name="katex" />
             <input type="text" id="input" name="name" onkeyup="convert()" />
             <input type="submit" />
         </form> 
@@ -23,7 +21,7 @@
                 try{
                     alert('got to try');
                     var input = document.getElementById('input');
-                    katex.render(input.value, finKatex);
+                    katex.render(input.value, textArea);
                 } catch(err){
 
                 }
