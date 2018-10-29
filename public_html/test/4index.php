@@ -4,8 +4,16 @@
         <link rel="stylesheet" href="katex.min.css">
         <script src="katex.js"></script>
         <?php
-            $user=$_POST['name'];
-            echo $user."\n";
+            $input=$_POST['input'];
+            $location=$_POST['location'];
+            $title=$_POST['title'];
+            $date=$_POST['date'];
+
+            $myFile = fopen("butt/".$date.".php", "w") or die ("Unable to open MF!");
+            $header="<!DOCTYPE html>\n\t<head>\n\t\t<title>$title</title><link rel="stylesheet" href="katex.min.css"><script src="katex.js"></script></head>";
+            $body="<body><div id="textArea"></div><script>
+try{katex.render(".$input.",textArea);} catch(err){}
+</script></body>";
         ?>
     </head>
     <body>
@@ -13,13 +21,14 @@
         <div id="textArea">
         </div> 
         <form action="<?php $_PHP_SELF ?>" method="post">
-            <input type="text" id="input" name="name" onkeyup="convert()" />
+            <input type="text" id="input" name="input" onkeyup="convert()" />
+            Location: <input type="text" name="location">
+            Title: <input type="text" name="title">
             <input type="submit" />
         </form> 
         <script>
             function convert(){
                 try{
-                    alert('got to try');
                     var input = document.getElementById('input');
                     katex.render(input.value, textArea);
                 } catch(err){
