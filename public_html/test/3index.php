@@ -11,7 +11,6 @@
 <script>
     function submit_form(){
         var data1=$("#uname").val();
-        alert($("#uname").val());
         var dataToSend='user='+data1;
         $.ajax({
             url: '3index.php',
@@ -25,7 +24,8 @@
 <?php
     if(empty($_POST['user'])){
         echo "username is required";
-    } else {
+    }
+    if(isset($_POST['user'])){
         $user=$_POST['user'];
         echo $user;
     }
