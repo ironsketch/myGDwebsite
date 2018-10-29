@@ -22,6 +22,8 @@
                 try{
                     var input = document.getElementById('input');
                     katex.render(input.value, finKatex);
+                } catch(err){
+
                 }
             }
         </script> 
