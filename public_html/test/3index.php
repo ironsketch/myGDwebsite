@@ -11,7 +11,7 @@
 <script>
     function submit_form(){
         var data1=$("#uname").val();
-        var dataTosend='user='+data1;
+        var dataToSend='user='+data1;
         $.ajax({
             url: '3index.php',
             type: 'POST',
