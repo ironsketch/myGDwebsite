@@ -21,8 +21,9 @@
         </div> 
         <form action="<?php $_PHP_SELF ?>" method="post">
             <input type="text" id="input" name="input" onkeyup="convert()" />
-            Location: <input type="text" name="location">
-            Title: <input type="text" name="title">
+            <br />Location: <input type="text" name="location">
+            <br />Title: <input type="text" name="title">
+            <br />Date: <input type="text" name="date">
             <input type="submit" />
         </form> 
         <script>
