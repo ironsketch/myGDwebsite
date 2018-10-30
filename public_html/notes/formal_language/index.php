@@ -40,7 +40,6 @@
                             if ('..' === $file) continue;
                             $html = explode(".", $path.$file);
                             if($html[1] === "html" || $html[1] === "php"){
-                                echo $path.$file;
                                 $title = get_title($path.$file);
                                 echo "<div id='cardFormal'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" . $path.$file . "' class='startLink'>Open</a></p></div>";
                             }
