@@ -12,7 +12,7 @@
                     <h1>10-30-18</h1></div>
                 </div>
                 <div id="top_nav">
-                    <a class="top_nav" href="formal_language/">Formal</a><a class="top_nav" href="logic/">Logic</a><a class="top_nav" href="lambda/">Lambda</a><a class="top_nav" href="types/">Types</a>
+                    <a class="top_nav" href="../../formal_language/">Formal</a><a class="top_nav" href="../../logic/">Logic</a><a class="top_nav" href="../../lambda/">Lambda</a><a class="top_nav" href="../../types/">Types</a>
                 </div>
                 <div id="cardHolder">
                         <div id="textArea" style="padding-top:20px"></div>
