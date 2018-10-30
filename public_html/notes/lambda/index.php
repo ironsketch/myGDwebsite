@@ -28,15 +28,15 @@ We will study mathematical foundations of programming languages as developed thr
                     }
                 }
                 echo "<div id='one'>";
-                $path = ".";
+                $path = "n/";
                     if ($handle = opendir($path)) {
                         while (false !== ($file = readdir($handle))) {
                             if ('.' === $file) continue;
                             if ('..' === $file) continue;
-                            $html = explode(".", $file);
+                            $html = explode(".", $path.$file);
                             if($html[1] === "html" || $html[1] === "php"){
-                                $title = get_title($file);
-                                echo "<div id='cardFormal'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" . $file . "' class='startLink'>Open</a></p></div>";
+                                $title = get_title($path.$file);
+                                echo "<div id='cardFormal'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" . $path.$file . "' class='startLink'>Open</a></p></div>";
                             }
                         }
                         closedir($handle);
