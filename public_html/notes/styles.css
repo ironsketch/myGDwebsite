@@ -112,6 +112,7 @@ a.top_nav:hover {
 	padding: 0px;
 	background-color: #202e3a;
 	text-align: left;
+    padding-left: 15px;
 }
 #cardLambda {
     color: #ffffff;
