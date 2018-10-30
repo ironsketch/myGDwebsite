@@ -17,19 +17,4 @@
                 <div id="cardHolder">
                     <center>
                         <div id="textArea" style="padding-top:20px"></div>
-                            <script>try{katex.render("\\textbf{3 Symantics}\\\\
-\\text{Operational}\\\\
-\\quad\\text{goal trees (or proof trees)}\\\\ 
-\\quad\\quad\\quad p(X\\text{ }X)\\\\
-\\quad\\quad/\\quad\\quad\\quad|\\\\
-\\quad q(X\\text{ }Y)\\quad r(X\\text{ }Z)\\\\
-\\text{Denotational}\\\\
-\\text{Axiomatic}\\\\
-\\quad\\text{(Horn)}\\\\
-\\text{ }\\\\
-\\quad5+3=3+5\\\\
-\\quad\\text{if }t_1\\text{ then }t_2\\text{ else }t_3\\\\
-\\quad\\text{What is the value?}\\\\
-\\quad\\text{You need to clarify to get value (remember the bar)}\\frac{something}{something}\\\\
-\\text{is\\_a\\_list([])}\\leftarrow\\text{A term is a list if it is an empty list.}\\\\
-\\text{}",textArea);} catch(err){}</script></center></div><div id="bottom"><br> Thanks for checking out my mafff and pergrehming sight.<p class="copyright">Copyright &copy; 2017 and beyond</p></div></div></body></html>
+                            <script>try{katex.render("\\textbf{3 Symantics}\\\\\\text{Operational}\\\\\\quad\\text{goal trees (or proof trees)}\\\\ \\quad\\quad\\quad p(X\\text{ }X)\\\\\\quad\\quad/\\quad\\quad\\quad|\\\\\\quad q(X\\text{ }Y)\\quad r(X\\text{ }Z)\\\\\\text{Denotational}\\\\\\text{Axiomatic}\\\\\\quad\\text{(Horn)}\\\\\\text{ }\\\\\\quad5+3=3+5\\\\\\quad\\text{if }t_1\\text{ then }t_2\\text{ else }t_3\\\\\\quad\\text{What is the value?}\\\\\\quad\\text{You need to clarify to get value (remember the bar)}\\frac{something}{something}\\\\\\text{is\\_a\\_list([])}\\leftarrow\\text{A term is a list if it is an empty list.}\\\\\\text{}",textArea);} catch(err){}</script></center></div><div id="bottom"><br> Thanks for checking out my mafff and pergrehming sight.<p class="copyright">Copyright &copy; 2017 and beyond</p></div></div></body></html>
