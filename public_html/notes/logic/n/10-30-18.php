@@ -1,4 +1,23 @@
-<!DOCTYPE html><head><title>10-30-18</title><link rel="stylesheet" href="../../styles.css"><link rel="stylesheet" href="../../katex.min.css"><script src="../../katex.js"></script></head><body><div id="container"><div id="top"><img style="float:right;padding-right:20px;width:250px;" src="../../cat3.gif" /><div id="title"><h1>10-30-18</h1></div></div><div id="top_nav"><a class="top_nav" href="formal_language/">Formal</a><a class="top_nav" href="logic/">Logic</a><a class="top_nav" href="lambda/">Lambda</a><a class="top_nav" href="types/">Types</a></div><div id="cardHolder"><center><div id="textArea" style="padding-top:20px"></div><script>try{katex.render("\\textbf{3 Symantics}\\\\
+<!DOCTYPE html>
+    <head><title>10-30-18</title>   
+        <link rel="stylesheet" href="../../styles.css">
+        <link rel="stylesheet" href="../../katex.min.css">
+        <script src="../../katex.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="top">
+                <img style="float:right;padding-right:20px;width:250px;" src="../../cat3.gif" />
+                <div id="title">
+                    <h1>10-30-18</h1></div>
+                </div>
+                <div id="top_nav">
+                    <a class="top_nav" href="formal_language/">Formal</a><a class="top_nav" href="logic/">Logic</a><a class="top_nav" href="lambda/">Lambda</a><a class="top_nav" href="types/">Types</a>
+                </div>
+                <div id="cardHolder">
+                    <center>
+                        <div id="textArea" style="padding-top:20px"></div>
+                            <script>try{katex.render("\\textbf{3 Symantics}\\\\
 \\text{Operational}\\\\
 \\quad\\text{goal trees (or proof trees)}\\\\ 
 \\quad\\quad\\quad p(X\\text{ }X)\\\\
