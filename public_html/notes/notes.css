@@ -8,7 +8,7 @@ body{
 }
 #textArea {
     float: right;
-    width: 50%;
+    width: 500px;
     margin: 10px;
 }
 #formDiv {
@@ -16,7 +16,7 @@ body{
     width: 50%;
 }
 #input {
-    width: 95%;
+    width: 50%;
     border: 0px;
     background-color: #003333;
     color: #ffffff;
