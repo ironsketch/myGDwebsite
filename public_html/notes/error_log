@@ -209,3 +209,15 @@ Stack trace:
 [30-Oct-2018 16:44:26 UTC] PHP Notice:  Undefined index: location in /home/x5orowb5nk8e/public_html/notes/notes.php on line 9
 [30-Oct-2018 16:44:26 UTC] PHP Notice:  Undefined index: title in /home/x5orowb5nk8e/public_html/notes/notes.php on line 10
 [30-Oct-2018 16:44:26 UTC] PHP Notice:  Undefined index: date in /home/x5orowb5nk8e/public_html/notes/notes.php on line 11
+[30-Oct-2018 17:02:36 UTC] PHP Notice:  Undefined index: input in /home/x5orowb5nk8e/public_html/notes/notes.php on line 8
+[30-Oct-2018 17:02:36 UTC] PHP Notice:  Undefined index: location in /home/x5orowb5nk8e/public_html/notes/notes.php on line 9
+[30-Oct-2018 17:02:36 UTC] PHP Notice:  Undefined index: title in /home/x5orowb5nk8e/public_html/notes/notes.php on line 10
+[30-Oct-2018 17:02:36 UTC] PHP Notice:  Undefined index: date in /home/x5orowb5nk8e/public_html/notes/notes.php on line 11
+[30-Oct-2018 17:04:02 UTC] PHP Notice:  Undefined index: input in /home/x5orowb5nk8e/public_html/notes/notes.php on line 8
+[30-Oct-2018 17:04:02 UTC] PHP Notice:  Undefined index: location in /home/x5orowb5nk8e/public_html/notes/notes.php on line 9
+[30-Oct-2018 17:04:02 UTC] PHP Notice:  Undefined index: title in /home/x5orowb5nk8e/public_html/notes/notes.php on line 10
+[30-Oct-2018 17:04:02 UTC] PHP Notice:  Undefined index: date in /home/x5orowb5nk8e/public_html/notes/notes.php on line 11
+[30-Oct-2018 17:51:50 UTC] PHP Notice:  Undefined index: input in /home/x5orowb5nk8e/public_html/notes/notes.php on line 8
+[30-Oct-2018 17:51:50 UTC] PHP Notice:  Undefined index: location in /home/x5orowb5nk8e/public_html/notes/notes.php on line 9
+[30-Oct-2018 17:51:50 UTC] PHP Notice:  Undefined index: title in /home/x5orowb5nk8e/public_html/notes/notes.php on line 10
+[30-Oct-2018 17:51:50 UTC] PHP Notice:  Undefined index: date in /home/x5orowb5nk8e/public_html/notes/notes.php on line 11
