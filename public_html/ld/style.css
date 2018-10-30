@@ -1,0 +1,19 @@
+body {
+    background-color: #339966;
+    color: #b3ffcc;
+}
+#container {
+    width: auto;
+    margin-top: 10px;
+    min-height: 100%;
+}
+#header {
+    text-align: center;    
+}
+#main {
+    
+}
+#rules {
+    margin: 0 auto;
+    text-align: center;
+}

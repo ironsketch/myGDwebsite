@@ -1,0 +1,95 @@
+body {
+	background-color: #ffffff;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+.img {
+	border: 0px;
+}
+.hr {
+	width: 100%;
+	background-color: #ececec;
+}
+.cardtitle {
+    font-weight: bold;
+    font-size: 20px;
+}
+.start {
+	color: #2a79b6;
+	font-weight: bold;
+	padding-left: 20px;
+	text-align: left;
+}
+a.startLink {
+	color: #2a79b6;
+	text-decoration: none;
+	padding: 10px 20px 10px 20px;
+}
+a.startLink:visited {
+	color: #2a79b6;
+	text-decoration: none;
+	padding: 10px 20px 10px 20px;
+}
+a.startLink:hover {
+	color: #ececec;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	background-color: #2a79b6;
+	
+}
+#container {
+	width: 100%;
+	text-align: center;
+}
+#top {
+	padding: 10px;
+	margin-bottom: 20px;
+	background-color: #e6e6e6;
+	color: #888888;
+	box-shadow: 0px 0px 7px;
+	width: 100%;
+	text-align: left;
+}
+#title {
+	float: right;
+	padding-right: 40px;
+}
+#heading {
+	width: 70%;
+	margin: auto;
+	padding: 10px 10px 30px 10px;
+	text-align: left;
+}
+#cardHolder {
+	padding: 0px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	background-color: #ececec;
+	text-align: left;
+}
+#card {
+	padding: 10px;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 25px;
+	background: #ffffff;
+	width: 300px;
+	height: 300px;
+    display: inline-block;
+}
+#bottom {
+	bottom: 0px;
+	left: 0px;
+	margin-bottom: 0px;
+	padding: 10px 10px 10px 10px;
+	width: 100%;
+	color: #ffffff;
+	background-color: #292c2f;
+}
+.copyright {
+	color: #8f9296;
+}
