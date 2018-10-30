@@ -33,7 +33,7 @@
                 }
                 echo "<div id='one'>";
                 echo "<h3>Formal Languages</h3>";
-                $path = ".";
+                $path = "n/";
                     if ($handle = opendir($path)) {
                         while (false !== ($file = readdir($handle))) {
                             if ('.' === $file) continue;
