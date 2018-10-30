@@ -34,7 +34,7 @@ In this thread we will study logic programming: how programs can be expressed de
                             if ('.' === $file) continue;
                             if ('..' === $file) continue;
                             $html = explode(".", $file);
-                            if($html[1] === "html"){
+                            if($html[1] === "html" || $html[1] === "php"){
                                 $title = get_title($file);
                                 echo "<div id='cardFormal'><span class='cardtitle'>" . $title . "</span><p class='start'><a href='" . $file . "' class='startLink'>Open</a></p></div>";
                             }
