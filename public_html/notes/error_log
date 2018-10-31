@@ -221,3 +221,22 @@ Stack trace:
 [30-Oct-2018 17:51:50 UTC] PHP Notice:  Undefined index: location in /home/x5orowb5nk8e/public_html/notes/notes.php on line 9
 [30-Oct-2018 17:51:50 UTC] PHP Notice:  Undefined index: title in /home/x5orowb5nk8e/public_html/notes/notes.php on line 10
 [30-Oct-2018 17:51:50 UTC] PHP Notice:  Undefined index: date in /home/x5orowb5nk8e/public_html/notes/notes.php on line 11
+[30-Oct-2018 20:38:07 UTC] PHP Notice:  Undefined index: input in /home/x5orowb5nk8e/public_html/notes/notes.php on line 8
+[30-Oct-2018 20:38:07 UTC] PHP Notice:  Undefined index: location in /home/x5orowb5nk8e/public_html/notes/notes.php on line 9
+[30-Oct-2018 20:38:07 UTC] PHP Notice:  Undefined index: title in /home/x5orowb5nk8e/public_html/notes/notes.php on line 10
+[30-Oct-2018 20:38:07 UTC] PHP Notice:  Undefined index: date in /home/x5orowb5nk8e/public_html/notes/notes.php on line 11
+[31-Oct-2018 01:15:50 UTC] PHP Warning:  fopen(logic/n/10-30-18.php): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/notes.php on line 15
+[31-Oct-2018 01:15:57 UTC] PHP Notice:  Undefined index: input in /home/x5orowb5nk8e/public_html/notes/notes.php on line 8
+[31-Oct-2018 01:15:57 UTC] PHP Notice:  Undefined index: location in /home/x5orowb5nk8e/public_html/notes/notes.php on line 9
+[31-Oct-2018 01:15:57 UTC] PHP Notice:  Undefined index: title in /home/x5orowb5nk8e/public_html/notes/notes.php on line 10
+[31-Oct-2018 01:15:57 UTC] PHP Notice:  Undefined index: date in /home/x5orowb5nk8e/public_html/notes/notes.php on line 11
+[31-Oct-2018 01:16:03 UTC] PHP Warning:  fopen(logic/n/10-30-18.php): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/notes.php on line 15
+[31-Oct-2018 01:16:05 UTC] PHP Notice:  Undefined index: input in /home/x5orowb5nk8e/public_html/notes/notes.php on line 8
+[31-Oct-2018 01:16:05 UTC] PHP Notice:  Undefined index: location in /home/x5orowb5nk8e/public_html/notes/notes.php on line 9
+[31-Oct-2018 01:16:05 UTC] PHP Notice:  Undefined index: title in /home/x5orowb5nk8e/public_html/notes/notes.php on line 10
+[31-Oct-2018 01:16:05 UTC] PHP Notice:  Undefined index: date in /home/x5orowb5nk8e/public_html/notes/notes.php on line 11
+[31-Oct-2018 01:22:09 UTC] PHP Warning:  fopen(logic/n/10-30-18.php): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/notes.php on line 15
+[31-Oct-2018 01:22:11 UTC] PHP Notice:  Undefined index: input in /home/x5orowb5nk8e/public_html/notes/notes.php on line 8
+[31-Oct-2018 01:22:11 UTC] PHP Notice:  Undefined index: location in /home/x5orowb5nk8e/public_html/notes/notes.php on line 9
+[31-Oct-2018 01:22:11 UTC] PHP Notice:  Undefined index: title in /home/x5orowb5nk8e/public_html/notes/notes.php on line 10
+[31-Oct-2018 01:22:11 UTC] PHP Notice:  Undefined index: date in /home/x5orowb5nk8e/public_html/notes/notes.php on line 11

@@ -217,3 +217,44 @@
 [29-Oct-2018 22:50:56 UTC] PHP Notice:  Undefined offset: 1 in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 42
 [29-Oct-2018 22:50:56 UTC] PHP Notice:  Undefined offset: 1 in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 42
 [29-Oct-2018 22:50:56 UTC] PHP Notice:  Undefined offset: 1 in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 42
+[30-Oct-2018 18:21:57 UTC] PHP Warning:  file_get_contents(09_26_18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 18:21:57 UTC] PHP Warning:  file_get_contents(10-10-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 18:21:57 UTC] PHP Warning:  file_get_contents(10-08-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 18:21:57 UTC] PHP Warning:  file_get_contents(10-01-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 18:21:57 UTC] PHP Warning:  file_get_contents(10-03-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 18:33:56 UTC] PHP Warning:  file_get_contents(09_26_18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 18:33:56 UTC] PHP Warning:  file_get_contents(10-10-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 18:33:56 UTC] PHP Warning:  file_get_contents(10-08-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 18:33:56 UTC] PHP Warning:  file_get_contents(10-01-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 18:33:56 UTC] PHP Warning:  file_get_contents(10-03-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 18:33:59 UTC] PHP Warning:  file_get_contents(09_26_18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 18:33:59 UTC] PHP Warning:  file_get_contents(10-10-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 18:33:59 UTC] PHP Warning:  file_get_contents(10-08-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 18:33:59 UTC] PHP Warning:  file_get_contents(10-01-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 18:33:59 UTC] PHP Warning:  file_get_contents(10-03-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 19:40:17 UTC] PHP Warning:  file_get_contents(09_26_18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 19:40:17 UTC] PHP Warning:  file_get_contents(10-10-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 19:40:17 UTC] PHP Warning:  file_get_contents(10-08-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 19:40:17 UTC] PHP Warning:  file_get_contents(10-01-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 19:40:17 UTC] PHP Warning:  file_get_contents(10-03-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 19:40:20 UTC] PHP Warning:  file_get_contents(09_26_18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 19:40:20 UTC] PHP Warning:  file_get_contents(10-10-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 19:40:20 UTC] PHP Warning:  file_get_contents(10-08-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 19:40:20 UTC] PHP Warning:  file_get_contents(10-01-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 19:40:20 UTC] PHP Warning:  file_get_contents(10-03-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 19:40:43 UTC] PHP Warning:  file_get_contents(09_26_18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 19:40:43 UTC] PHP Warning:  file_get_contents(10-10-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 19:40:43 UTC] PHP Warning:  file_get_contents(10-08-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 19:40:43 UTC] PHP Warning:  file_get_contents(10-01-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 19:40:43 UTC] PHP Warning:  file_get_contents(10-03-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 19:43:53 UTC] PHP Warning:  file_get_contents(09_26_18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 19:43:53 UTC] PHP Warning:  file_get_contents(10-10-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 19:43:53 UTC] PHP Warning:  file_get_contents(10-08-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 19:43:53 UTC] PHP Warning:  file_get_contents(10-01-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[30-Oct-2018 19:43:53 UTC] PHP Warning:  file_get_contents(10-03-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[31-Oct-2018 01:26:22 UTC] PHP Warning:  file_get_contents(09_26_18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[31-Oct-2018 01:26:22 UTC] PHP Warning:  file_get_contents(10-10-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[31-Oct-2018 01:26:22 UTC] PHP Warning:  file_get_contents(10-08-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[31-Oct-2018 01:26:22 UTC] PHP Warning:  file_get_contents(10-01-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[31-Oct-2018 01:26:22 UTC] PHP Warning:  file_get_contents(10-03-18.html): failed to open stream: No such file or directory in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 27
+[31-Oct-2018 01:41:44 UTC] PHP Parse error:  syntax error, unexpected '$title' (T_VARIABLE), expecting ',' or ';' in /home/x5orowb5nk8e/public_html/notes/formal_language/index.php on line 44
