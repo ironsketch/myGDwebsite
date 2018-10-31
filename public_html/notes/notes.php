@@ -3,6 +3,10 @@
         <title>Note Writer</title>
         <link rel="stylesheet" href="katex.min.css">
         <link rel="stylesheet" href="notes.css">
+        <script src="katex.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"</script>
         <script src="katex.js"></script>
         <?php
             $before=$_POST['input'];
@@ -36,6 +40,7 @@
             function convert(){
                 try{
                     var input = document.getElementById('input');
+                    renderMathInElement(input,{delimiters: [{left: "$$", right: "$$", display: true}]});
                     katex.render(input.value, textArea);
                 } catch(err){
 
