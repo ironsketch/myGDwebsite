@@ -17,7 +17,8 @@
             <div id="top_nav">
             </div>
 			<div id="cardHolder">
-                <a href="tri.pdf">Triangular norm-based iterative compensatory operators</a>
+                <br /><a href="tri.pdf">Triangular norm-based iterative compensatory operators</a>
+                <br /><img src="img/ex1.png" />
             </div>
 			<div id="bottom">
 				<br> Thanks for checking out my mafff and pergrehming sight.
