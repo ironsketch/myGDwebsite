@@ -7,6 +7,12 @@ body {
 	padding: 0px;
 	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
 .img {
 	border: 0px;
 }
