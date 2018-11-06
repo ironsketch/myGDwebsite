@@ -16,6 +16,9 @@ a:link {
 a:visited {
     color: #ffffff;
 }
+a:hover {
+    color: #ff0000;
+}
 .img {
 	border: 0px;
 }
