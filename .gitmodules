@@ -1,0 +1,3 @@
+[submodule "public_html/notes/NoteTaker"]
+	path = public_html/notes/NoteTaker
+	url = https://github.com/ironsketch/NoteTaker.git
